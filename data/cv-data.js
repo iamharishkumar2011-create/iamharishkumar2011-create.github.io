@@ -1,0 +1,675 @@
+/**
+ * Dr. Harish Kumar - Academic Portfolio Data
+ * Chairperson Research | Assistant Professor (Marketing)
+ * Great Lakes Institute of Management, Gurgaon
+ */
+
+window.CV_DATA = {
+  profile: {
+    name: "Dr. Harish Kumar",
+    title: "Chairperson Research | Assistant Professor (Marketing)",
+    institution: "Great Lakes Institute of Management, Gurgaon",
+    tagline: "Pioneering the intersection of Spatial Computing (XR/AR/VR), Generative AI, and Consumer Psychology.",
+    bio: "I am a dedicated academician with a keen research interest in XR (AR, VR) and Gen AI in Marketing. Adept at both qualitative and quantitative research methodologies, I combine rigorous theoretical frameworks and cutting-edge empirical methods to decode consumer behavior in immersive digital environments. My publication record includes 15 ABDC-A*/A journal articles, alongside an active research pipeline targeting elite Financial Times (FT-50) journals.",
+    emailPrimary: "iamharishkumar2011@gmail.com",
+    emailSecondary: "narehsdish@gmail.com",
+    phone: "+91 8398034573",
+    location: "Gurgaon / Rewari (Haryana), India",
+    address: "Chand Colony, Dharuhera, Distt: Rewari (Haryana), PIN – 123106",
+    linkedin: "https://www.linkedin.com/in/harish-kumar-719909110",
+    scholar: "https://scholar.google.com/citations?user=RQaX1WwAAAAJ",
+    dob: "26 March 1991"
+  },
+
+  stats: [
+    { label: "ABDC A* & A Publications", value: 15, suffix: "+" },
+    { label: "UGC-JRF All India Rank", value: 3, prefix: "AIR ", note: "99.98 Percentile" },
+    { label: "FT-50 Pipeline Targets", value: 5, suffix: " Projects" },
+    { label: "Harvard / Ivey Cases", value: 2, suffix: " Cases" },
+    { label: "Global Co-Author Hubs", value: 4, suffix: " Nations" }
+  ],
+
+  researchPillars: [
+    {
+      title: "Spatial Computing & XR in Marketing",
+      icon: "cube",
+      summary: "Investigating how Augmented Reality (AR) and Virtual Reality (VR) reshape retail decision-making, consumer engagement, immersive presence, and cognitive load.",
+      keywords: ["Augmented Reality", "Virtual Reality", "Spatial Retailing", "Consumer Cognition", "Metaverse B2B"]
+    },
+    {
+      title: "Generative AI & Consumer Behavior",
+      icon: "sparkles",
+      summary: "Examining consumer perception, algorithmic trust, and expectancy-disconfirmation when interacting with generative AI, including when high AI output quality paradoxically backfires.",
+      keywords: ["Generative AI", "Consumer Inclusion", "AI Calibration Gap", "Algorithmic Stigma"]
+    },
+    {
+      title: "Inclusive Marketing & Well-Being",
+      icon: "users",
+      summary: "Exploring technology as a benefit equalizer for marginalized groups, identity stigmatization, and inclusive service ecosystems for consumers with disabilities.",
+      keywords: ["Consumer Inclusion", "Stigmatization", "Assistive Services", "LGBTQ+ Campaigns"]
+    },
+    {
+      title: "Advanced Methodologies",
+      icon: "cpu",
+      summary: "Multi-method rigor spanning Laddering & Means-End Chain across multi-country samples, experimental design, PLS-SEM, AMOS, grounded theory, and systematic reviews.",
+      keywords: ["Means-End Chain", "Experimental Design", "PLS-SEM & AMOS", "Bibliometrics"]
+    }
+  ],
+
+  lab: {
+    name: "Spatial Reality Lab",
+    role: "Founder & Director",
+    established: "2023",
+    institution: "Great Lakes Institute of Management, Gurgaon",
+    description: "The Spatial Reality Lab is a pioneering academic innovation center dedicated to the empirical investigation of Extended Reality (XR), Spatial Computing, and Generative Artificial Intelligence in marketing. The lab serves as an advanced testing ground for immersive VR setups, mobile AR experimental platforms, and cross-cultural user studies, partnering with international researchers and industry leaders.",
+    pillars: [
+      { title: "Empirical Behavioral Experiments", desc: "Rigorous testing of immersive retail stimuli, consumer sensory overload, and privacy perceptions." },
+      { title: "Curriculum & Executive Pedagogy", desc: "Home to the groundbreaking course 'Spatial Computing in Marketing' taught to PGPM students." },
+      { title: "Global Research Consortia", desc: "Active research alliances with scholars across Germany (UniBw Munich), USA (Indiana Kelley), and France (GEM)." },
+      { title: "TARD Workshop Series", desc: "Training young scholars and teaching assistants in advanced research methodologies and scholarly writing." }
+    ]
+  },
+
+  publications: [
+    {
+      id: "pub-1",
+      category: "abdc-astar",
+      badge: "ABDC - A*",
+      year: 2024,
+      title: "Towards a theoretical framework for augmented reality marketing: A means-end chain perspective on retailing",
+      authors: "Kumar, H., Rauschnabel, P. A., Agarwal, M. N., Singh, R. K., & Srivastava, R.",
+      journal: "Information & Management",
+      details: "Vol. 61, No. 2, 103910",
+      doi: "https://doi.org/10.1016/j.im.2023.103910",
+      tags: ["Augmented Reality", "Means-End Chain", "Retailing", "Theoretical Framework"],
+      bibtex: `@article{kumar2024towards,\n  title={Towards a theoretical framework for augmented reality marketing: A means-end chain perspective on retailing},\n  author={Kumar, Harish and Rauschnabel, Philipp A and Agarwal, Madhushree Nanda and Singh, Rajesh K and Srivastava, Ritu},\n  journal={Information & Management},\n  volume={61},\n  number={2},\n  pages={103910},\n  year={2024},\n  publisher={Elsevier},\n  doi={10.1016/j.im.2023.103910}\n}`
+    },
+    {
+      id: "pub-2",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2026,
+      title: "B2B marketing in metaverse: Toward a theoretical framework",
+      authors: "Arghashi, V., Kumar, H., Mathew, J., Venkatesh, U., & Altinbasak Farina, I.",
+      journal: "Journal of Business and Industrial Marketing",
+      details: "Forthcoming / In Press",
+      doi: "https://doi.org/10.1108/JBIM-09-2024-0679",
+      tags: ["Metaverse", "B2B Marketing", "Industrial Marketing", "Virtual Worlds"],
+      bibtex: `@article{arghashi2026b2b,\n  title={B2B marketing in metaverse: Toward a theoretical framework},\n  author={Arghashi, Vahid and Kumar, Harish and Mathew, Joseph and Venkatesh, U. and Altinbasak Farina, I.},\n  journal={Journal of Business and Industrial Marketing},\n  year={2026},\n  publisher={Emerald Publishing},\n  doi={10.1108/JBIM-09-2024-0679}\n}`
+    },
+    {
+      id: "pub-3",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2025,
+      title: "Inclusive marketing: A review and research agenda",
+      authors: "Tuli, N., Srivastava, V., & Kumar, H.",
+      journal: "Journal of Business Research",
+      details: "Article 115274",
+      doi: "https://doi.org/10.1016/j.jbusres.2025.115274",
+      tags: ["Inclusive Marketing", "Consumer Diversity", "Literature Review", "Agenda"],
+      bibtex: `@article{tuli2025inclusive,\n  title={Inclusive marketing: A review and research agenda},\n  author={Tuli, Neha and Srivastava, Vinit and Kumar, Harish},\n  journal={Journal of Business Research},\n  pages={115274},\n  year={2025},\n  publisher={Elsevier},\n  doi={10.1016/j.jbusres.2025.115274}\n}`
+    },
+    {
+      id: "pub-4",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2025,
+      title: "Distance between ‘them’ and ‘us’: Identity stigmatization in the age of consumer inclusion",
+      authors: "Tuli, N., Kumar, H., Upadhyay, S., & Ciszek, E.",
+      journal: "International Journal of Advertising",
+      details: "Published Online First",
+      doi: "https://doi.org/10.1080/02650487.2025.2592469",
+      tags: ["Identity Stigmatization", "Consumer Inclusion", "Advertising Strategy", "Social Psychology"],
+      bibtex: `@article{tuli2025distance,\n  title={Distance between ‘them’ and ‘us’: Identity stigmatization in the age of consumer inclusion},\n  author={Tuli, Neha and Kumar, Harish and Upadhyay, Shashi and Ciszek, Erica},\n  journal={International Journal of Advertising},\n  year={2025},\n  publisher={Routledge},\n  doi={10.1080/02650487.2025.2592469}\n}`
+    },
+    {
+      id: "pub-5",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2025,
+      title: "Understanding how augmented reality’s immersive experience and privacy concerns impact consumer responses: A cognitive perspective",
+      authors: "Lavoye, V. & Kumar, H.",
+      journal: "Journal of Retailing and Consumer Services",
+      details: "Article 104425",
+      doi: "https://doi.org/10.1016/j.jretconser.2025.104425",
+      tags: ["Augmented Reality", "Privacy Concerns", "Cognitive Perspective", "Consumer Retailing"],
+      bibtex: `@article{lavoye2025understanding,\n  title={Understanding how augmented reality’s immersive experience and privacy concerns impact consumer responses: A cognitive perspective},\n  author={Lavoye, Virginie and Kumar, Harish},\n  journal={Journal of Retailing and Consumer Services},\n  pages={104425},\n  year={2025},\n  publisher={Elsevier},\n  doi={10.1016/j.jretconser.2025.104425}\n}`
+    },
+    {
+      id: "pub-6",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2025,
+      title: "Filtering the reality: Exploring the bright and dark side of augmented reality-based filters",
+      authors: "Kumar, H. & Agarwal, M.",
+      journal: "Australian Journal of Management",
+      details: "Vol. 50, No. 1, pp. 152–172",
+      doi: "https://doi.org/10.1177/03128962231199356",
+      tags: ["AR Filters", "Dark Side of Tech", "Self-Perception", "Social Media"],
+      bibtex: `@article{kumar2025filtering,\n  title={Filtering the reality: Exploring the bright and dark side of augmented reality-based filters},\n  author={Kumar, Harish and Agarwal, Madhushree},\n  journal={Australian Journal of Management},\n  volume={50},\n  number={1},\n  pages={152--172},\n  year={2025},\n  publisher={SAGE Publications},\n  doi={10.1177/03128962231199356}\n}`
+    },
+    {
+      id: "pub-7",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2024,
+      title: "ARvolution: Decoding consumer motivation and value dimensions in augmented reality",
+      authors: "Schultz, C. D. & Kumar, H.",
+      journal: "Journal of Retailing and Consumer Services",
+      details: "Vol. 78, 103701",
+      doi: "https://doi.org/10.1016/j.jretconser.2023.103701",
+      tags: ["Augmented Reality", "Consumer Motivation", "Value Dimensions", "Shopping Experience"],
+      bibtex: `@article{schultz2024arvolution,\n  title={ARvolution: Decoding consumer motivation and value dimensions in augmented reality},\n  author={Schultz, Carsten D and Kumar, Harish},\n  journal={Journal of Retailing and Consumer Services},\n  volume={78},\n  pages={103701},\n  year={2024},\n  publisher={Elsevier},\n  doi={10.1016/j.jretconser.2023.103701}\n}`
+    },
+    {
+      id: "pub-8",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2024,
+      title: "A holistic framework for consumer usage modes of augmented reality marketing in retailing",
+      authors: "Caboni, F., Basile, V., Kumar, H., & Agarwal, D.",
+      journal: "Journal of Retailing and Consumer Services",
+      details: "Vol. 80, 103924",
+      doi: "https://doi.org/10.1016/j.jretconser.2024.103924",
+      tags: ["Augmented Reality Marketing", "Usage Modes", "Retail Framework", "Omnichannel"],
+      bibtex: `@article{caboni2024holistic,\n  title={A holistic framework for consumer usage modes of augmented reality marketing in retailing},\n  author={Caboni, Federica and Basile, Vincenzo and Kumar, Harish and Agarwal, Divya},\n  journal={Journal of Retailing and Consumer Services},\n  volume={80},\n  pages={103924},\n  year={2024},\n  publisher={Elsevier},\n  doi={10.1016/j.jretconser.2024.103924}\n}`
+    },
+    {
+      id: "pub-9",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2024,
+      title: "From margins to mainstream: Identifying successful LGBTQ+ inclusive marketing campaigns in India",
+      authors: "Upadhyay, S., Tuli, N., & Kumar, H.",
+      journal: "Australasian Marketing Journal",
+      details: "Vol. 32, No. 3",
+      doi: "https://doi.org/10.1177/14413582241247328",
+      tags: ["LGBTQ+ Marketing", "Consumer Inclusivity", "Campaign Strategy", "India Market"],
+      bibtex: `@article{upadhyay2024margins,\n  title={From margins to mainstream: Identifying successful LGBTQ+ inclusive marketing campaigns in India},\n  author={Upadhyay, Shashi and Tuli, Neha and Kumar, Harish},\n  journal={Australasian Marketing Journal},\n  volume={32},\n  number={3},\n  year={2024},\n  publisher={SAGE Publications},\n  doi={10.1177/14413582241247328}\n}`
+    },
+    {
+      id: "pub-10",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2024,
+      title: "Exploring the role of augmented reality as new brand advocate",
+      authors: "Kumar, H., Tuli, N., Kumar, R., Srivastava, R., & Arya, V.",
+      journal: "Journal of Consumer Behaviour",
+      details: "Published Online First",
+      doi: "https://doi.org/10.1002/cb.2227",
+      tags: ["Brand Advocacy", "Augmented Reality", "Consumer Attachment", "Brand Engagement"],
+      bibtex: `@article{kumar2024exploring,\n  title={Exploring the role of augmented reality as new brand advocate},\n  author={Kumar, Harish and Tuli, Neha and Kumar, Rohit and Srivastava, Ritu and Arya, Vikas},\n  journal={Journal of Consumer Behaviour},\n  year={2024},\n  publisher={Wiley},\n  doi={10.1002/cb.2227}\n}`
+    },
+    {
+      id: "pub-11",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2023,
+      title: "Meta-analysis of augmented reality marketing",
+      authors: "Kumar, H., Gupta, P., & Chauhan, S.",
+      journal: "Marketing Intelligence & Planning",
+      details: "Vol. 41, No. 1, pp. 110–123",
+      doi: "https://doi.org/10.1108/MIP-06-2022-0221",
+      tags: ["Meta-Analysis", "Augmented Reality", "Quantitative Synthesis", "Marketing Intelligence"],
+      bibtex: `@article{kumar2023meta,\n  title={Meta-analysis of augmented reality marketing},\n  author={Kumar, Harish and Gupta, Prateek and Chauhan, Sumedha},\n  journal={Marketing Intelligence & Planning},\n  volume={41},\n  number={1},\n  pages={110--123},\n  year={2023},\n  publisher={Emerald Publishing},\n  doi={10.1108/MIP-06-2022-0221}\n}`
+    },
+    {
+      id: "pub-12",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2023,
+      title: "Digital customer engagement: A systematic literature review and research agenda",
+      authors: "Srivastava, R., Gupta, P., Kumar, H., & Tuli, N.",
+      journal: "Australian Journal of Management",
+      details: "Published Online First",
+      doi: "https://doi.org/10.1177/03128962231177096",
+      tags: ["Customer Engagement", "Digital Marketing", "Systematic Review", "Research Agenda"],
+      bibtex: `@article{srivastava2023digital,\n  title={Digital customer engagement: A systematic literature review and research agenda},\n  author={Srivastava, Ritu and Gupta, Prateek and Kumar, Harish and Tuli, Neha},\n  journal={Australian Journal of Management},\n  year={2023},\n  publisher={SAGE Publications},\n  doi={10.1177/03128962231177096}\n}`
+    },
+    {
+      id: "pub-13",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2023,
+      title: "Navigating services for consumers with disabilities: A comprehensive review and conceptual framework",
+      authors: "Tuli, N., Srivastava, R., & Kumar, H.",
+      journal: "Journal of Services Marketing",
+      details: "Vol. 37, No. 9, pp. 1132–1150",
+      doi: "https://doi.org/10.1108/JSM-06-2023-0204",
+      tags: ["Services Marketing", "Consumers with Disabilities", "Inclusion", "Service Design"],
+      bibtex: `@article{tuli2023navigating,\n  title={Navigating services for consumers with disabilities: A comprehensive review and conceptual framework},\n  author={Tuli, Neha and Srivastava, Ritu and Kumar, Harish},\n  journal={Journal of Services Marketing},\n  volume={37},\n  number={9},\n  pages={1132--1150},\n  year={2023},\n  publisher={Emerald Publishing},\n  doi={10.1108/JSM-06-2023-0204}\n}`
+    },
+    {
+      id: "pub-14",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2022,
+      title: "Exploring the role of augmented reality in online impulse behaviour",
+      authors: "Kumar, H. & Srivastava, R.",
+      journal: "International Journal of Retail and Distribution Management",
+      details: "Vol. 50, No. 10, pp. 1281–1301",
+      doi: "https://doi.org/10.1108/IJRDM-11-2021-0535",
+      tags: ["Augmented Reality", "Impulse Buying", "Online Retailing", "Consumer Emotion"],
+      bibtex: `@article{kumar2022exploring,\n  title={Exploring the role of augmented reality in online impulse behaviour},\n  author={Kumar, Harish and Srivastava, Ritu},\n  journal={International Journal of Retail and Distribution Management},\n  volume={50},\n  number={10},\n  pages={1281--1301},\n  year={2022},\n  publisher={Emerald Publishing},\n  doi={10.1108/IJRDM-11-2021-0535}\n}`
+    },
+    {
+      id: "pub-15",
+      category: "abdc-a",
+      badge: "ABDC - A",
+      year: 2021,
+      title: "Augmented reality in online retailing: A systematic review and research agenda",
+      authors: "Kumar, H.",
+      journal: "International Journal of Retail and Distribution Management",
+      details: "Vol. 50, No. 4, pp. 537–559",
+      doi: "https://doi.org/10.1108/IJRDM-06-2021-0287",
+      tags: ["Augmented Reality", "Online Retailing", "Systematic Review", "Foundational"],
+      bibtex: `@article{kumar2021augmented,\n  title={Augmented reality in online retailing: A systematic review and research agenda},\n  author={Kumar, Harish},\n  journal={International Journal of Retail and Distribution Management},\n  volume={50},\n  number={4},\n  pages={537--559},\n  year={2021},\n  publisher={Emerald Publishing},\n  doi={10.1108/IJRDM-06-2021-0287}\n}`
+    },
+    {
+      id: "pub-16",
+      category: "teaching-case",
+      badge: "Harvard / Ivey Case",
+      year: 2021,
+      title: "Rock Pharmacy: Rocked?",
+      authors: "Kumar, H.",
+      journal: "Ivey Publishing (Listed on Harvard Business School Publishing)",
+      details: "Product ID: W25507-PDF-ENG",
+      doi: "https://hbsp.harvard.edu/product/W25507-PDF-ENG",
+      tags: ["Teaching Case", "Pharmacy Retail", "Strategy", "HBSP"],
+      bibtex: `@misc{kumar2021rock,\n  title={Rock Pharmacy: Rocked?},\n  author={Kumar, Harish},\n  year={2021},\n  publisher={Ivey Publishing / Harvard Business Publishing},\n  howpublished={\\url{https://hbsp.harvard.edu/product/W25507-PDF-ENG}}\n}`
+    },
+    {
+      id: "pub-17",
+      category: "teaching-case",
+      badge: "Harvard / Ivey Case",
+      year: 2023,
+      title: "The Market Maze: Cracking Fresherrry’s Selection Dilemma",
+      authors: "Tuli, N. & Kumar, H.",
+      journal: "Ivey Publishing (Listed on Harvard Business School Publishing / The Case Centre)",
+      details: "Product ID: 194904",
+      doi: "https://www.thecasecentre.org/products/view?id=194904",
+      tags: ["Teaching Case", "Retail Marketing", "Market Selection", "HBSP"],
+      bibtex: `@misc{tuli2023market,\n  title={The Market Maze: Cracking Fresherrry's Selection Dilemma},\n  author={Tuli, Neha and Kumar, Harish},\n  year={2023},\n  publisher={Ivey Publishing / Harvard Business Publishing},\n  howpublished={\\url{https://www.thecasecentre.org/products/view?id=194904}}\n}`
+    },
+    {
+      id: "pub-18",
+      category: "other",
+      badge: "ABDC - C",
+      year: 2021,
+      title: "Decoding the branded app engagement process: A grounded theory approach",
+      authors: "Kumar, H. & Tuli, N.",
+      journal: "Asia Pacific Journal of Information Systems",
+      details: "Vol. 31, pp. 582–605",
+      doi: "https://doi.org/10.14329/apjis.2021.31.4.582",
+      tags: ["Branded Apps", "Grounded Theory", "Mobile Engagement"],
+      bibtex: `@article{kumar2021decoding,\n  title={Decoding the branded app engagement process: A grounded theory approach},\n  author={Kumar, Harish and Tuli, Neha},\n  journal={Asia Pacific Journal of Information Systems},\n  volume={31},\n  pages={582--605},\n  year={2021},\n  doi={10.14329/apjis.2021.31.4.582}\n}`
+    },
+    {
+      id: "pub-19",
+      category: "other",
+      badge: "ABDC - B",
+      year: 2022,
+      title: "Demystifying the engagement process: A BoP perspective towards social media engagement",
+      authors: "Tuli, N., Kumar, H., & Srivastava, R.",
+      journal: "Journal of International Consumer Marketing",
+      details: "Published 2022",
+      doi: "https://scholar.google.com/citations?user=RQaX1WwAAAAJ",
+      tags: ["Bottom of Pyramid", "Social Media Engagement", "Emerging Markets"],
+      bibtex: `@article{tuli2022demystifying,\n  title={Demystifying the engagement process: A BoP perspective towards social media engagement},\n  author={Tuli, Neha and Kumar, Harish and Srivastava, Ritu},\n  journal={Journal of International Consumer Marketing},\n  year={2022}\n}`
+    },
+    {
+      id: "pub-20",
+      category: "other",
+      badge: "Book Chapter",
+      year: 2020,
+      title: "A qualitative insight into the personal factors impacting online impulse behavior",
+      authors: "Kumar, H., Garg, R., Kumar, P., & Chhikara, R.",
+      journal: "Strategies and Tools for Managing Connected Consumers (IGI Global)",
+      details: "pp. 279–291",
+      doi: "https://doi.org/10.4018/978-1-5225-9697-4.ch016",
+      tags: ["Book Chapter", "Impulse Behavior", "E-Commerce", "Qualitative"],
+      bibtex: `@incollection{kumar2020qualitative,\n  title={A qualitative insight into the personal factors impacting online impulse behavior},\n  author={Kumar, Harish and Garg, R. and Kumar, P. and Chhikara, R.},\n  booktitle={Strategies and Tools for Managing Connected Consumers},\n  pages={279--291},\n  year={2020},\n  publisher={IGI Global},\n  doi={10.4018/978-1-5225-9697-4.ch016}\n}`
+    }
+  ],
+
+  underReview: [
+    {
+      title: "The AI Calibration gap: Why Companies Misread Their own Users?",
+      target: "MIT Sloan Management Review",
+      tier: "FT-50 Target",
+      coauthors: "with Mansur Khamitov (Kelley School of Business – Indiana University USA)",
+      status: "Under Review"
+    },
+    {
+      title: "Leveraging augmented and virtual reality for climate change engagement and sustainable consumption",
+      target: "Journal of Business Research",
+      tier: "ABDC - A",
+      coauthors: "Kumar, H. et al.",
+      status: "Revision Round 1 (R1)"
+    },
+    {
+      title: "Why AR works – A comparison of web vs mobile AR across cultures",
+      target: "Technological Forecasting and Social Change",
+      tier: "ABDC - A",
+      coauthors: "Kumar, H. et al.",
+      status: "Under Review"
+    },
+    {
+      title: "Role of augmented reality in luxury fashion marketing: A cognitive perspective",
+      target: "International Journal of Retail and Distribution Management",
+      tier: "ABDC - A",
+      coauthors: "Kumar, H. et al.",
+      status: "Revision Round 1 (R1)"
+    }
+  ],
+
+  workInProgress: [
+    {
+      title: "Cognitive Transition Model: Towards a Unified Theory",
+      targetJournal: "Journal of Consumer Research (JCR)",
+      tier: "FT-50 / UT Dallas Top Tier",
+      collaborators: "Philipp Rauschnabel (UniBw Munich, Germany), Mansur Khamitov (Indiana University, USA), Robert Mai (Grenoble University, France)",
+      focus: "Groundbreaking theoretical foundation linking mental imagery, cognitive immersion, and spatial perception."
+    },
+    {
+      title: "Augmented Reality as a Benefit Equalizer – A Theoretical Framework on Consumer Inclusion and Well-Being",
+      targetJournal: "Journal of the Academy of Marketing Science (JAMS)",
+      tier: "FT-50 Top Tier",
+      collaborators: "Mansur Khamitov (Indiana University, USA), Philipp Rauschnabel (UniBw Munich, Germany)",
+      focus: "Positioning AR technologies as transformative equalizers for consumer dignity, accessibility, and well-being."
+    },
+    {
+      title: "When a Better Gen AI Quality Backfires",
+      targetJournal: "Journal of Consumer Psychology (JCP)",
+      tier: "FT-50 Top Tier",
+      collaborators: "Robert Mai (Grenoble University, France), Mansur Khamitov (Indiana University, USA)",
+      focus: "Experimental evidence revealing the psychological paradox where high fidelity AI outputs trigger consumer alienation."
+    },
+    {
+      title: "Mind the Gap! A Mixed-Method Investigation of When Meeting Expectations Beats Exceeding Them in Generative AI",
+      targetJournal: "Journal of Marketing (JM)",
+      tier: "FT-50 / Premier Journal",
+      collaborators: "Mansur Khamitov (Indiana University, USA)",
+      focus: "Multi-study investigation into expectancy violation theory and consumer trust boundaries in generative AI adoption."
+    }
+  ],
+
+  mediaArticles: [
+    {
+      date: "July 2025",
+      outlet: "DataQuest",
+      title: "You See Me Now! How Gen AI Is Rewriting the Rules of Inclusion in the Consumer Age",
+      category: "Generative AI",
+      featured: true
+    },
+    {
+      date: "July 2025",
+      outlet: "Images Business of Food (Print)",
+      title: "Immersive Commerce in India: The Leapfrog Opportunity for Retail Engagement",
+      category: "Spatial Commerce"
+    },
+    {
+      date: "June 2025",
+      outlet: "Indian Retailer",
+      title: "Immersive Commerce in India: The Leapfrog Opportunity for Retail Engagement",
+      category: "Spatial Commerce"
+    },
+    {
+      date: "June 2025",
+      outlet: "Analytics Insight",
+      title: "How AI Is Revolutionizing Brand–Consumer Interaction in the Age of Personalization",
+      category: "Generative AI",
+      featured: true
+    },
+    {
+      date: "June 2025",
+      outlet: "ABP Live Education",
+      title: "Impact of Generative AI on Student Learning: A Boost or Impediment",
+      category: "Pedagogy & AI"
+    },
+    {
+      date: "June 2025",
+      outlet: "Voice & Data Magazine (Cybermedia)",
+      title: "AI Gets Personal: Coding Turns into Brand Connection",
+      category: "Brand Strategy"
+    },
+    {
+      date: "January 2025",
+      outlet: "AdGully",
+      title: "Blurring Reality: How AR Filters Shape Social Media Users' Self-Concepts & Well-Being",
+      category: "XR & Well-Being",
+      featured: true
+    },
+    {
+      date: "January 2025",
+      outlet: "Campaign India",
+      title: "Augmented Reality: Merging Imagination with Retail Innovation",
+      category: "Retail Innovation"
+    },
+    {
+      date: "January 2025",
+      outlet: "India Retailing",
+      title: "The Future of Marketing: Empathy, Not Algorithms",
+      category: "Strategic Marketing"
+    },
+    {
+      date: "January 2025",
+      outlet: "Media Avataar",
+      title: "Augmented Reality: The Future of Consumer Marketing",
+      category: "XR & Retailing"
+    },
+    {
+      date: "November 2024",
+      outlet: "The Economic Times (Brand Equity)",
+      title: "XR: The Game-Changer for Sustainable Consumption",
+      category: "Sustainability & XR",
+      featured: true
+    },
+    {
+      date: "November 2024",
+      outlet: "The Economic Times (Brand Equity)",
+      title: "Sustainable Tourism Practices",
+      category: "Sustainability"
+    },
+    {
+      date: "October 2024",
+      outlet: "ET Travel World",
+      title: "Shaping the Future of Travel: Why Sustainable Tourism Matters",
+      category: "Tourism"
+    }
+  ],
+
+  courses: [
+    {
+      title: "Spatial Computing in Marketing",
+      level: "PGPM (MBA) Flagship Course",
+      badge: "Pioneering Curriculum",
+      description: "Designed and launched as a groundbreaking elective covering Augmented, Virtual, and Mixed Reality in brand strategy, immersive merchandising, spatial UX, and consumer sensory psychology.",
+      institution: "Great Lakes Institute of Management, Gurgaon"
+    },
+    {
+      title: "Marketing Research",
+      level: "Core PGPM",
+      badge: "Quantitative Rigor",
+      description: "Comprehensive training in research design, measurement scales, causal inference, and multivariate data analysis for high-stakes business decision making.",
+      institution: "Great Lakes Institute of Management, Gurgaon"
+    },
+    {
+      title: "Consumer Behavior",
+      level: "Core PGPM",
+      badge: "Behavioral Science",
+      description: "Examining cognitive, socio-cultural, and emotional drivers of decision making, customer journeys, brand loyalty, and digital identity formation.",
+      institution: "Great Lakes Institute of Management, Gurgaon"
+    },
+    {
+      title: "Business Research Methods",
+      level: "PGPM",
+      badge: "Methodology",
+      description: "Translating complex organizational dilemmas into structured empirical investigations using qualitative laddering and econometric modeling.",
+      institution: "Great Lakes Institute of Management, Gurgaon"
+    }
+  ],
+
+  academicExperience: [
+    {
+      role: "Chairperson Research & Assistant Professor (Marketing)",
+      institution: "Great Lakes Institute of Management, Gurgaon",
+      period: "March 2023 – Present",
+      points: [
+        "Introduced pioneering course on 'Spatial Computing in Marketing' to PGPM students with stellar evaluations.",
+        "Founded the Spatial Reality Lab – an experimental hub for XR consumer research and technology-driven industry partnerships.",
+        "Launched the 'Discovery Dialogue Series', bringing global marketing scholars for interdisciplinary research symposia.",
+        "Founded the 'TARD Workshop Series' to train teaching assistants in advanced research methodologies and scholarly publishing.",
+        "Steering the institution's overall research strategy, doctoral initiatives, and faculty scholarly output."
+      ]
+    },
+    {
+      role: "Teaching Assistant",
+      institution: "Management Development Institute (MDI) Gurgaon",
+      period: "July 2020 – September 2020",
+      points: [
+        "Delivered and assisted in 30-hour course under Prof. Rohit Prasad for PGPM students, earning 'Excellent' remarks."
+      ]
+    },
+    {
+      role: "Assistant Professor",
+      institution: "Astral Education",
+      period: "August 2016 – April 2019",
+      points: [
+        "Coached over 500 UGC NET-JRF aspirants in Commerce and Management with record-breaking qualifying outcomes.",
+        "Received institutional recognition for creative classroom lesson plans, interactive pedagogy, and instructional techniques."
+      ]
+    }
+  ],
+
+  education: [
+    {
+      degree: "Fellow Programme in Management (Ph.D.)",
+      field: "Marketing (Thesis: Consumer Behavior towards Augmented Reality in Retailing)",
+      institution: "Management Development Institute (MDI), Gurgaon",
+      period: "July 2019 – 2023",
+      notes: "First-author on 4 peer-reviewed articles (1 ABDC-A* and 3 ABDC-A) from dissertation. 'A' grade in Comprehensive Research Evaluation (CRE)."
+    },
+    {
+      degree: "Post Graduate Programme in Management (PGPM Coursework)",
+      field: "Management Studies",
+      institution: "MDI Gurgaon",
+      period: "2019 – 2020",
+      notes: "Completed rigorous 1-year doctoral coursework covering advanced econometric, quantitative, and qualitative research paradigms."
+    },
+    {
+      degree: "Master of Business Administration (MBA)",
+      field: "Finance",
+      institution: "Sikkim Manipal University",
+      period: "2011 – 2013",
+      notes: "Advanced corporate finance, managerial economics, and portfolio analytics."
+    },
+    {
+      degree: "Bachelor of Commerce (Honours)",
+      field: "Commerce",
+      institution: "M.D. University, Rohtak",
+      period: "2009 – 2011",
+      notes: "Graduated with Honours; solid quantitative and accounting foundation."
+    }
+  ],
+
+  honors: [
+    {
+      title: "All India Rank (AIR) – 3 (99.98 Percentile)",
+      event: "UGC-Junior Research Fellowship (JRF) in Management",
+      year: "Dec 2018",
+      desc: "Top 0.02% nationally across thousands of applicants in business and management."
+    },
+    {
+      title: "Best Paper Award",
+      event: "8th XR and Metaverse Conference, Las Vegas, USA",
+      year: "July 2023",
+      desc: "International recognition for breakthrough research in spatial computing and virtual environments."
+    },
+    {
+      title: "Best Paper Award",
+      event: "Winter Business School Conference, Great Lakes",
+      year: "Jan 2023",
+      desc: "Awarded for exceptional empirical rigor and contribution to marketing literature."
+    },
+    {
+      title: "Best Abstract Award",
+      event: "CERO MDI Gurgaon Conference",
+      year: "Sept 2024",
+      desc: "Awarded for 'Customer Engagement at the Bottom of the Pyramid'."
+    },
+    {
+      title: "Convenor & Conference Leadership",
+      event: "3rd Winter Business School Conference, Great Lakes Gurgaon",
+      year: "2024",
+      desc: "Chaired academic committees, paper tracks, and keynote sessions."
+    },
+    {
+      title: "External Doctoral Thesis Committee Member",
+      event: "Indian Institute of Technology (IIT) ISM Dhanbad",
+      year: "2024 – Present",
+      desc: "Serving as external expert member to the thesis committee of Jyoti Rani."
+    },
+    {
+      title: "Chartered Accountants Foundation (CPT)",
+      event: "Institute of Chartered Accountants of India (ICAI)",
+      year: "2009",
+      desc: "Passed the national Common Proficiency Test."
+    }
+  ],
+
+  conferences: [
+    { date: "Dec 2025", title: "AI calibration gap: when firms misread their own consumers", event: "NSMEI Conference 2025" },
+    { date: "June 2025", title: "Branding in Immersive Worlds: Towards a Conceptual Model and Future Research", event: "10th XR and Metaverse Conference, Maastricht, Netherlands" },
+    { date: "Dec 2024", title: "Resource Person: Capacity Building for Research Scholars", event: "ICSSR-sponsored program, GLA University, Mathura" },
+    { date: "Dec 2024", title: "A Scale Development for Augmentation and Automation", event: "NASMEI Conference 2024" },
+    { date: "Sept 2024", title: "Doctoral Workshop & Track Chair", event: "International Joint Conference on Hospitality and Tourism, Vietnam" },
+    { date: "Sept 2024", title: "Customer Engagement at the Bottom of the Pyramid", event: "CERO MDI, Gurgaon (Best Abstract Award)" },
+    { date: "Aug 2024", title: "From Illusion to Inclusion: Enhancing Consumer Well-being through AR Marketing", event: "AMA Summer Academic Conference 2024, USA" },
+    { date: "May 2024", title: "Pre-Conference Doctoral Workshop & Track Chair", event: "9th XR and Metaverse Conference, Busan, South Korea" },
+    { date: "Jan 2024", title: "Track Chair", event: "ICMC-2024, MICA Ahmedabad" },
+    { date: "Oct 2023", title: "Moderator: Plenary Session on AI-XR & Ethics", event: "CERO Conference, MDI Gurgaon" },
+    { date: "July 2023", title: "Best Paper Presentation", event: "8th XR and Metaverse Conference, Las Vegas, USA" },
+    { date: "May 2023", title: "Conference Presentation", event: "European Marketing Academy Conference (EMAC) 2023" },
+    { date: "Jan 2023", title: "Best Paper Presentation", event: "Winter Business School Conference, Great Lakes" }
+  ],
+
+  collaborators: [
+    {
+      name: "Prof. Philipp A. Rauschnabel",
+      title: "Professor of Digital Marketing & Media Innovation",
+      institution: "Universität der Bundeswehr, Munich, Germany",
+      email: "Philipp.rauschnabel@unibw.de",
+      coauthorOn: "Information & Management (A*), JCR Target, JAMS Target"
+    },
+    {
+      name: "Prof. Mansur Khamitov",
+      title: "Associate Professor of Marketing",
+      institution: "Kelley School of Business, Indiana University, USA",
+      email: "mkhamito@iu.edu",
+      coauthorOn: "MIT Sloan MR, JCR Target, JM Target, JCP Target, JAMS Target"
+    },
+    {
+      name: "Prof. Robert Mai",
+      title: "Professor of Marketing",
+      institution: "Grenoble Ecole de Management, France",
+      email: "robert.mai@grenoble-em.com",
+      coauthorOn: "JCR Target, JCP Target"
+    },
+    {
+      name: "Prof. Ritu Srivastava",
+      title: "Professor of Marketing",
+      institution: "Management Development Institute (MDI), Gurgaon",
+      email: "ritu.srivastava@mdi.ac.in",
+      coauthorOn: "Information & Management (A*), IJRDM, JSM, AJM"
+    },
+    {
+      name: "Prof. Madhushree Nanda Agarwal",
+      title: "Professor of OB & HR",
+      institution: "Management Development Institute (MDI), Gurgaon",
+      email: "madhushree@mdi.ac.in",
+      coauthorOn: "Information & Management (A*), Australian Journal of Management"
+    }
+  ]
+};
