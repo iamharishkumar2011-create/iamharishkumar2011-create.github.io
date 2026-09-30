@@ -1,31 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. Harish Kumar | Chairperson Research & Assistant Professor of Marketing | XR & Gen AI Scholar</title>
+  <title>Dr. Harish Kumar — Academic Portfolio &amp; Intellectual Archive</title>
 
-  <!-- SEO & Academic Metadata -->
-  <meta name="description" content="Official academic portfolio of Dr. Harish Kumar, Chairperson Research & Assistant Professor of Marketing at Great Lakes Institute of Management, Gurgaon. Specializing in Spatial Computing (XR/AR/VR), Generative AI in Marketing, and Consumer Psychology." />
-  <meta name="keywords" content="Dr. Harish Kumar, Harish Kumar Marketing, Spatial Computing in Marketing, Augmented Reality Marketing, Generative AI Marketing, Great Lakes Gurgaon, MDI Gurgaon, ABDC A*, ABDC A Publications, Spatial Reality Lab" />
+  <!-- Editorial Metadata -->
+  <meta name="description" content="Official academic portfolio of Dr. Harish Kumar, Chairperson Research &amp; Assistant Professor of Marketing at Great Lakes Institute of Management, Gurgaon. Scholarship in spatial computing, consumer cognition, and generative artificial intelligence." />
   <meta name="author" content="Dr. Harish Kumar" />
+  <link rel="canonical" href="https://iamharishkumar.com/" />
 
-  <!-- Open Graph / Social Media -->
-  <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Dr. Harish Kumar — Academic Portfolio & Research Lab" />
-  <meta property="og:description" content="Chairperson Research & Assistant Professor (Marketing). Scholar in Spatial Computing (XR, AR, VR) and Generative AI. 15 ABDC-A*/A publications." />
-  <meta property="og:url" content="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- Preconnect & Web Fonts -->
+  <!-- Typography: Newsreader (Editorial Serif) + Plus Jakarta Sans + JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Plus+Jakarta+Sans:wght@400;450;500;600&display=swap" rel="stylesheet" />
 
-  <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
 
-  <!-- Schema.org JSON-LD Structured Data for Google Scholar / Knowledge Graph -->
+  <!-- Schema.org Person Metadata -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -33,440 +25,384 @@
     "name": "Dr. Harish Kumar",
     "jobTitle": "Chairperson Research and Assistant Professor of Marketing",
     "worksFor": {
-      "@type": "CollegeOrUniversity",
+      "@type": "EducationalOrganization",
       "name": "Great Lakes Institute of Management, Gurgaon"
     },
     "alumniOf": {
-      "@type": "CollegeOrUniversity",
+      "@type": "EducationalOrganization",
       "name": "Management Development Institute (MDI) Gurgaon"
     },
+    "url": "https://iamharishkumar.com/",
     "sameAs": [
       "https://scholar.google.com/citations?user=RQaX1WwAAAAJ",
       "https://www.linkedin.com/in/harish-kumar-719909110"
-    ],
-    "knowsAbout": [
-      "Spatial Computing",
-      "Augmented Reality Marketing",
-      "Virtual Reality in Retailing",
-      "Generative Artificial Intelligence in Marketing",
-      "Consumer Behavior",
-      "Means-End Chain Laddering",
-      "Experimental Design"
     ]
   }
   </script>
 </head>
 <body>
 
-  <!-- Scroll Progress Bar -->
-  <div id="scroll-progress"></div>
-
-  <!-- Ambient Animated Mesh & Grid Backgrounds -->
-  <div class="bg-mesh">
-    <div class="mesh-orb-1"></div>
-    <div class="mesh-orb-2"></div>
-    <div class="mesh-orb-3"></div>
-  </div>
-  <div class="bg-grid"></div>
-
-  <!-- Sticky Glassmorphic Navigation -->
-  <header class="navbar">
-    <div class="container navbar-inner">
-      <a href="#hero" class="nav-brand" aria-label="Dr. Harish Kumar Home">
-        <div class="brand-monogram">HK</div>
-        <div class="brand-text">
-          <span class="brand-name">Dr. Harish Kumar</span>
-          <span class="brand-role">Chairperson Research • GLIM Gurgaon</span>
-        </div>
+  <!-- Masthead Navigation -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a href="#hero" class="masthead-brand">
+        <span class="brand-name">Dr. Harish Kumar</span>
+        <span class="brand-affiliation">Great Lakes Gurgaon</span>
       </a>
 
-      <!-- Desktop Nav -->
       <nav>
-        <ul class="nav-links" id="nav-links">
+        <ul class="masthead-nav">
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#ideas" class="nav-link">Ideas</a></li>
+          <li><a href="#book" class="nav-link">Book</a></li>
+          <li><a href="#teaching" class="nav-link">Teaching</a></li>
+          <li><a href="#lab" class="nav-link">Lab</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#spatial-lab" class="nav-link">Spatial Reality Lab</a></li>
-          <li><a href="#publications" class="nav-link">Publications</a></li>
-          <li><a href="#pipeline" class="nav-link">FT-50 Pipeline</a></li>
-          <li><a href="#teaching" class="nav-link">Teaching &amp; Cases</a></li>
           <li><a href="#media" class="nav-link">Media</a></li>
-          <li><a href="#collaborators" class="nav-link">Collaborators</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><button onclick="window.print()" class="nav-link nav-cv-link" style="background:none; border:none; cursor:pointer;">Print CV ↗</button></li>
         </ul>
       </nav>
-
-      <!-- Nav Actions -->
-      <div class="nav-actions">
-        <!-- Theme Toggle -->
-        <button id="theme-toggle-btn" class="theme-btn" aria-label="Toggle light or dark theme">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-          </svg>
-        </button>
-
-        <!-- Google Scholar Quick Link -->
-        <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
-          Scholar
-        </a>
-
-        <!-- Mobile Menu Toggle -->
-        <button class="mobile-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
-          ☰
-        </button>
-      </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero-section" id="hero">
+  <section class="hero-editorial" id="hero">
     <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-badge-group">
-          <span class="hero-badge">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            UGC-JRF AIR 3 (99.98%ile)
-          </span>
-          <span class="hero-badge glow">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
-            15 ABDC A*/A Articles
-          </span>
-          <span class="hero-badge">
-            Ph.D. MDI Gurgaon
-          </span>
-        </div>
-
-        <h1 class="hero-title">
-          Dr. Harish <span class="gradient-text serif-font">Kumar</span>
+      <div class="hero-narrative-col">
+        <span class="hero-meta-lead">Chairperson Research • Assistant Professor of Marketing</span>
+        <h1 class="hero-statement">
+          I investigate how emerging immersive technologies—spatial computing, augmented reality, virtual environments, and generative artificial intelligence—reconfigure human cognition, consumer judgment, and social inclusion.
         </h1>
 
-        <div class="hero-roles">
-          <span>Chairperson Research</span>
-          <span class="divider">•</span>
-          <span>Assistant Professor (Marketing)</span>
-          <span class="divider">•</span>
-          <span class="gradient-text">Spatial Computing &amp; Gen AI</span>
-        </div>
-
-        <p class="hero-bio">
-          Dedicated academician decoding consumer cognition, sensory psychology, and technological adoption across 
-          <strong>Augmented Reality (AR)</strong>, <strong>Virtual Reality (VR)</strong>, and <strong>Generative AI</strong>. 
-          Leading high-impact empirical investigations targeting elite Financial Times (FT-50) journals and shaping future marketing leaders at Great Lakes Institute of Management, Gurgaon.
+        <p class="hero-narrative">
+          I am an academician, researcher, and educator based at the Great Lakes Institute of Management in Gurgaon, where I serve as Chairperson of Research and Assistant Professor of Marketing. I completed my doctoral studies at the Management Development Institute (MDI) Gurgaon, supported by the UGC Junior Research Fellowship after securing an All India Rank 3 with a 99.98 percentile. My inquiry investigates how the dissolution of the boundary between the physical environment and algorithmic mediation alters human judgment, decision-making, and market equity.
         </p>
 
-        <div class="hero-cta">
-          <a href="#publications" class="btn btn-primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-            Explore 15+ Publications
-          </a>
-          <a href="#spatial-lab" class="btn btn-outline">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-            Spatial Reality Lab
-          </a>
-          <button onclick="window.print()" class="btn btn-outline" title="Print or export clean CV">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-            Export CV
-          </button>
-        </div>
+        <!-- Intellectual Map: 01, 02, 03, 04 -->
+        <div class="intellectual-map">
+          
+  <div class="map-item">
+    <span class="map-num">01</span>
+    <h4 class="map-title">SPATIAL CONSUMER COGNITION</h4>
+    <p class="map-desc">Decoding sensory presence, cognitive load, and motivation in augmented reality and virtual retail environments.</p>
+  </div>
 
-        <div class="hero-quick-links">
-          <span>Connect:</span>
-          <a href="https://www.linkedin.com/in/harish-kumar-719909110" target="_blank" rel="noopener noreferrer">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-            LinkedIn
-          </a>
-          <a href="mailto:iamharishkumar2011@gmail.com">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            Email
-          </a>
-          <a href="#pipeline">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            FT-50 Pipeline
-          </a>
+
+  <div class="map-item">
+    <span class="map-num">02</span>
+    <h4 class="map-title">GENERATIVE AI & ALGORITHMIC PARADOXES</h4>
+    <p class="map-desc">Investigating user calibration, expectancy violation, and the psychological conditions where higher AI quality backfires.</p>
+  </div>
+
+
+  <div class="map-item">
+    <span class="map-num">03</span>
+    <h4 class="map-title">INCLUSION AS A BENEFIT EQUALIZER</h4>
+    <p class="map-desc">Theorizing technology as an instrument of consumer dignity, accessibility, and the dismantling of identity stigma.</p>
+  </div>
+
+
+  <div class="map-item">
+    <span class="map-num">04</span>
+    <h4 class="map-title">METHODOLOGICAL PLURALISM</h4>
+    <p class="map-desc">Bridging qualitative laddering across global samples with controlled lab experiments and psychometric rigor.</p>
+  </div>
+
         </div>
       </div>
 
-      <!-- Spatial Card Visual -->
-      <div class="hero-visual">
-        <div class="floating-chip top-right">
-          ⚡ Spatial Computing &amp; XR
+      <!-- Authentic Portrait Column -->
+      <div class="hero-portrait-col">
+        <div class="portrait-frame">
+          <img src="photo.jpg" alt="Dr. Harish Kumar" class="portrait-img" />
         </div>
-        <div class="floating-chip bottom-left">
-          🤖 Gen AI in Marketing
+        <div class="portrait-caption">
+          <span>Dr. Harish Kumar</span>
+          <span>Ph.D., MDI Gurgaon • AIR 3 (99.98%ile)</span>
+        </div>
+        <p class="portrait-quote">
+          "Spatial computing introduces physical embodiment; generative AI introduces synthetic agency. These shifts dissolve longstanding behavioral assumptions."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Research -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-label">Selected Scholarship</span>
+        <h2 class="section-heading">Featured Research</h2>
+        <p class="section-subtext">
+          Theoretical contributions published in premier peer-reviewed journals, translating empirical findings into actionable principles.
+        </p>
+      </div>
+
+      <div class="editorial-research-list">
+        
+  <article class="research-entry">
+    <div class="entry-meta">
+      <span class="entry-year">2024</span>
+      <span class="entry-venue">Information &amp; Management</span>
+      <span class="entry-tier">ABDC - A*</span>
+    </div>
+    <div class="entry-body">
+      <h3 class="entry-title">
+        <a href="https://doi.org/10.1016/j.im.2023.103910" target="_blank" rel="noopener noreferrer">Towards a Theoretical Framework for Augmented Reality Marketing: A Means-End Chain Perspective on Retailing ↗</a>
+      </h3>
+      <p class="entry-contribution">Establishes a foundational theoretical architecture demonstrating how concrete AR interface attributes connect to abstract terminal human values across a multi-country sample from seven nations.</p>
+      <p class="entry-authors">Kumar, H., Rauschnabel, P. A., Agarwal, M. N., Singh, R. K., &amp; Srivastava, R.</p>
+    </div>
+    <div class="entry-action">
+      <a href="https://doi.org/10.1016/j.im.2023.103910" target="_blank" rel="noopener noreferrer" class="editorial-link">
+        Read Paper ↗
+      </a>
+    </div>
+  </article>
+
+
+  <article class="research-entry">
+    <div class="entry-meta">
+      <span class="entry-year">2025</span>
+      <span class="entry-venue">Journal of Business Research</span>
+      <span class="entry-tier">ABDC - A</span>
+    </div>
+    <div class="entry-body">
+      <h3 class="entry-title">
+        <a href="https://doi.org/10.1016/j.jbusres.2025.115274" target="_blank" rel="noopener noreferrer">Inclusive Marketing: A Review and Research Agenda ↗</a>
+      </h3>
+      <p class="entry-contribution">Synthesizes decades of fragmented scholarship into a unified framework of marketplace equity, detailing how systemic barriers can be dismantled through intentional service design.</p>
+      <p class="entry-authors">Tuli, N., Srivastava, V., &amp; Kumar, H.</p>
+    </div>
+    <div class="entry-action">
+      <a href="https://doi.org/10.1016/j.jbusres.2025.115274" target="_blank" rel="noopener noreferrer" class="editorial-link">
+        Read Paper ↗
+      </a>
+    </div>
+  </article>
+
+
+  <article class="research-entry">
+    <div class="entry-meta">
+      <span class="entry-year">2025</span>
+      <span class="entry-venue">International Journal of Advertising</span>
+      <span class="entry-tier">ABDC - A</span>
+    </div>
+    <div class="entry-body">
+      <h3 class="entry-title">
+        <a href="https://doi.org/10.1080/02650487.2025.2592469" target="_blank" rel="noopener noreferrer">Distance Between ‘Them’ and ‘Us’: Identity Stigmatization in the Age of Consumer Inclusion ↗</a>
+      </h3>
+      <p class="entry-contribution">Unpacks the nuanced psychological tension between inclusion and tokenism, identifying how promotional campaigns inadvertently reinforce perceived social distance.</p>
+      <p class="entry-authors">Tuli, N., Kumar, H., Upadhyay, S., &amp; Ciszek, E.</p>
+    </div>
+    <div class="entry-action">
+      <a href="https://doi.org/10.1080/02650487.2025.2592469" target="_blank" rel="noopener noreferrer" class="editorial-link">
+        Read Paper ↗
+      </a>
+    </div>
+  </article>
+
+
+  <article class="research-entry">
+    <div class="entry-meta">
+      <span class="entry-year">2025</span>
+      <span class="entry-venue">Journal of Retailing and Consumer Services</span>
+      <span class="entry-tier">ABDC - A</span>
+    </div>
+    <div class="entry-body">
+      <h3 class="entry-title">
+        <a href="https://doi.org/10.1016/j.jretconser.2025.104425" target="_blank" rel="noopener noreferrer">Understanding How Augmented Reality’s Immersive Experience and Privacy Concerns Impact Consumer Responses: A Cognitive Perspective ↗</a>
+      </h3>
+      <p class="entry-contribution">Reveals the cognitive trade-offs consumers make between sensory immersion and perceived data vulnerability during spatial shopping interactions.</p>
+      <p class="entry-authors">Lavoye, V. &amp; Kumar, H.</p>
+    </div>
+    <div class="entry-action">
+      <a href="https://doi.org/10.1016/j.jretconser.2025.104425" target="_blank" rel="noopener noreferrer" class="editorial-link">
+        Read Paper ↗
+      </a>
+    </div>
+  </article>
+
+
+  <article class="research-entry">
+    <div class="entry-meta">
+      <span class="entry-year">2024</span>
+      <span class="entry-venue">Journal of Consumer Behaviour</span>
+      <span class="entry-tier">ABDC - A</span>
+    </div>
+    <div class="entry-body">
+      <h3 class="entry-title">
+        <a href="https://doi.org/10.1002/cb.2227" target="_blank" rel="noopener noreferrer">Exploring the Role of Augmented Reality as New Brand Advocate ↗</a>
+      </h3>
+      <p class="entry-contribution">Theorizes how interactive AR experiences transform consumers from passive recipients into active, motivated advocates through psychological ownership.</p>
+      <p class="entry-authors">Kumar, H., Tuli, N., Kumar, R., Srivastava, R., &amp; Arya, V.</p>
+    </div>
+    <div class="entry-action">
+      <a href="https://doi.org/10.1002/cb.2227" target="_blank" rel="noopener noreferrer" class="editorial-link">
+        Read Paper ↗
+      </a>
+    </div>
+  </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ideas & Essays -->
+  <section class="section" id="ideas">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-label">Intellectual Journal</span>
+        <h2 class="section-heading">Ideas &amp; Emerging Observations</h2>
+        <p class="section-subtext">
+          Field notes, theoretical provocations, and working reflections on technology, markets, and human cognition.
+        </p>
+      </div>
+
+      <div class="ideas-grid">
+        
+  <article class="idea-card">
+    <div class="idea-meta">
+      <span class="idea-date">Spring 2026</span>
+      <span class="idea-category">Generative AI</span>
+    </div>
+    <h3 class="idea-title">The AI Calibration Gap: Why Organizations Misread Synthetic Consumer Trust</h3>
+    <p class="idea-preview">Organizations routinely confuse technical benchmark accuracy with human psychological comfort. When consumers interact with generative systems, the friction is rarely informational—it is existential and relational. We explore why exceeding technical expectations often triggers algorithmic alienation.</p>
+  </article>
+
+
+  <article class="idea-card">
+    <div class="idea-meta">
+      <span class="idea-date">Autumn 2025</span>
+      <span class="idea-category">Consumer Psychology</span>
+    </div>
+    <h3 class="idea-title">The Articulation Reversal: When High Machine Output Quality Backfires</h3>
+    <p class="idea-preview">Standard consumer psychology assumes that higher performance yields higher satisfaction. In generative AI, however, an unexpected inflection occurs: when an algorithm articulates a personal sentiment too flawlessly, consumers perceive a loss of authentic selfhood and retreat from the brand.</p>
+  </article>
+
+
+  <article class="idea-card">
+    <div class="idea-meta">
+      <span class="idea-date">Summer 2025</span>
+      <span class="idea-category">Inclusive Marketing</span>
+    </div>
+    <h3 class="idea-title">Spatial Equalizers: Why Immersive Systems Must Not Replicate Physical Inequality</h3>
+    <p class="idea-preview">Physical retail spaces have spent a century baking in architectural barriers against disabled and marginalized consumers. Spatial computing presents a rare historical window: will virtual environments replicate historical marginalization, or can they serve as cognitive equalizers of dignity?</p>
+  </article>
+
+
+  <article class="idea-card">
+    <div class="idea-meta">
+      <span class="idea-date">Early 2025</span>
+      <span class="idea-category">Spatial Computing</span>
+    </div>
+    <h3 class="idea-title">Beyond the Novelty Phase: The Maturation of Augmented Retailing</h3>
+    <p class="idea-preview">For a decade, augmented reality was treated by retail marketers as a promotional carnival mirror. Our empirical findings demonstrate that consumer retention begins only when AR shifts from sensory entertainment to cognitive utility and spatial task simplification.</p>
+  </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Book / Monograph Section -->
+  <section class="section" id="book">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-label">Forthcoming Monograph</span>
+        <h2 class="section-heading">The Book Project</h2>
+      </div>
+
+      <div class="book-layout">
+        <div class="book-cover-mock">
+          <div class="cover-author">Harish Kumar</div>
+          <div class="cover-title-group">
+            <h3>FILTERING<br />REALITY</h3>
+            <p>How Spatial Computing and Artificial Intelligence Are Rewriting the Psychology of Consumer Life</p>
+          </div>
+          <div class="cover-footer">
+            <span>Research Monograph</span>
+            <span style="float:right;">Great Lakes Gurgaon</span>
+          </div>
         </div>
 
-        <div class="spatial-visual-card">
-          <div class="spatial-avatar-wrap">
-            <div class="spatial-avatar">
-              HK
-            </div>
-            <div class="spatial-status-dot" title="Actively publishing &amp; accepting research collaborations"></div>
-          </div>
+        <div class="book-narrative">
+          <span class="mono-meta" style="color:var(--accent-editorial); margin-bottom:0.75rem; display:block;">Central Intellectual Premise</span>
+          <p class="book-premise">
+            "For two centuries, commerce operated on the premise of a shared physical world. We are now entering an era where reality itself is modulated in real time by machine algorithms."
+          </p>
+          <p>
+            <strong>The central question:</strong> When the boundary between the physical environment, synthetic intelligence, and consumer perception dissolves, how do human beings construct meaning, retain agency, and evaluate authentic value?
+          </p>
 
-          <div class="spatial-card-header">
-            <h3>Dr. Harish Kumar</h3>
-            <p>Great Lakes Institute of Management, Gurgaon</p>
-          </div>
-
-          <ul class="spatial-focus-list">
-            <li class="spatial-focus-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-              <span>Founder, Spatial Reality Lab</span>
-            </li>
-            <li class="spatial-focus-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-              <span>International Co-Authors (USA, Germany, France)</span>
-            </li>
-            <li class="spatial-focus-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-              <span>2 Cases in Harvard Business Publishing (Ivey)</span>
-            </li>
-            <li class="spatial-focus-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-              <span>Editorial Board &amp; Reviewer (JBR, TFSC, JCB)</span>
-            </li>
+          <ul class="book-theses-list">
+            <li>The Shift from Mediation to Immersion: How perception replaces observation in spatial interfaces.</li>
+<li>The Synthetic Other: Why anthropomorphic AI triggers deep defensive psychological barriers.</li>
+<li>The Politics of Augmented Space: How algorithmic filtering selectively amplifies or erases human diversity.</li>
+<li>The Sovereign Consumer Myth: Navigating decision-making when choices are calibrated by predictive models.</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Live Stats Row with Ease-Out Animations -->
-  <section class="stats-section">
+  <!-- Comprehensive Research Archive -->
+  <section class="section" id="archive">
     <div class="container">
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-number" data-target="15" data-suffix="+">0</div>
-          <div class="stat-label">ABDC A* / A Articles</div>
-          <div class="stat-note">Top-tier peer-reviewed</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="3" data-prefix="AIR ">0</div>
-          <div class="stat-label">UGC-JRF Management</div>
-          <div class="stat-note">99.98 Percentile Rank</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="5" data-suffix=" Papers">0</div>
-          <div class="stat-label">FT-50 Pipeline</div>
-          <div class="stat-note">Targeting JM, JCR, JAMS</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="2" data-suffix=" Cases">0</div>
-          <div class="stat-label">Harvard / Ivey Cases</div>
-          <div class="stat-note">Listed on HBSP</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number" data-target="4" data-suffix=" Nations">0</div>
-          <div class="stat-label">Global Research Hubs</div>
-          <div class="stat-note">USA, Germany, France, India</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About & Research Philosophy -->
-  <section id="about">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Academic Profile &amp; Focus</span>
-        <h2 class="section-title">Research Philosophy &amp; Core Pillars</h2>
-        <p class="section-desc">
-          Merging behavioral psychology with cutting-edge immersive systems. From multi-country Means-End Chain laddering to advanced laboratory neuro-marketing experiments.
+      <div class="section-intro">
+        <span class="section-label">Complete Scholarly Record</span>
+        <h2 class="section-heading">Research Archive</h2>
+        <p class="section-subtext">
+          15 ABDC-A* and A journal articles, Harvard Business Publishing teaching cases, and empirical book chapters.
         </p>
       </div>
 
-      <div class="pillars-grid">
-        <div class="pillar-card">
-          <div class="pillar-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-          </div>
-          <h3>Spatial Computing &amp; XR in Marketing</h3>
-          <p>
-            Investigating how Augmented Reality (AR) and Virtual Reality (VR) alter consumer motivation, impulse buying, privacy concerns, brand advocacy, and cognitive load in omni-channel retail.
-          </p>
-          <div class="pillar-tags">
-            <span class="pill-tag">Augmented Reality</span>
-            <span class="pill-tag">Spatial Commerce</span>
-            <span class="pill-tag">B2B Metaverse</span>
-            <span class="pill-tag">Cognitive Immersion</span>
-          </div>
+      <!-- Filter Tabs & Search -->
+      <div class="archive-controls">
+        <div class="archive-filter-tabs">
+          <button class="archive-tab active" data-filter="all">All (20)</button>
+          <button class="archive-tab" data-filter="peer-reviewed">Peer-Reviewed (15)</button>
+          <button class="archive-tab" data-filter="cases">Harvard / Ivey Cases (2)</button>
+          <button class="archive-tab" data-filter="other">Chapters &amp; Other (3)</button>
         </div>
 
-        <div class="pillar-card">
-          <div class="pillar-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
-          </div>
-          <h3>Generative AI &amp; Consumer Psychology</h3>
-          <p>
-            Decoding consumer responses to AI-generated content, algorithmic advice, expectations vs. disconfirmation, and discovering conditions under which higher AI output quality paradoxically backfires.
-          </p>
-          <div class="pillar-tags">
-            <span class="pill-tag">Generative AI</span>
-            <span class="pill-tag">AI Calibration Gap</span>
-            <span class="pill-tag">Trust &amp; Stigmatization</span>
-            <span class="pill-tag">Algorithmic Paradox</span>
-          </div>
-        </div>
-
-        <div class="pillar-card">
-          <div class="pillar-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          </div>
-          <h3>Inclusive Marketing &amp; Consumer Well-Being</h3>
-          <p>
-            Pioneering research on technology as an accessibility equalizer, examining identity stigmatization, LGBTQ+ campaign dynamics in emerging economies, and services for disabled consumers.
-          </p>
-          <div class="pillar-tags">
-            <span class="pill-tag">Benefit Equalizer</span>
-            <span class="pill-tag">Inclusive Services</span>
-            <span class="pill-tag">Identity Stigma</span>
-            <span class="pill-tag">Consumer Well-being</span>
-          </div>
-        </div>
-
-        <div class="pillar-card">
-          <div class="pillar-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-          </div>
-          <h3>Advanced Empirical Methodologies</h3>
-          <p>
-            Adept in both qualitative laddering and rigorous quantitative statistical modeling: Means-End Chain (7 countries), 2x2 Experimental Designs, PLS-SEM, AMOS, Grounded Theory, and Meta-Analyses.
-          </p>
-          <div class="pillar-tags">
-            <span class="pill-tag">Means-End Chain</span>
-            <span class="pill-tag">LadderUX</span>
-            <span class="pill-tag">PLS-SEM &amp; AMOS</span>
-            <span class="pill-tag">Experimental Design</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Spatial Reality Lab Spotlight -->
-  <section id="spatial-lab">
-    <div class="container">
-      <div class="lab-spotlight">
-        <div class="lab-header">
-          <div>
-            <span class="section-eyebrow" style="background: rgba(6, 182, 212, 0.1); border-color: rgba(6, 182, 212, 0.3); color: var(--accent-secondary);">
-              Innovation &amp; Research Hub
-            </span>
-            <h2 class="serif-font" style="font-size: 2.2rem; margin-top: 0.5rem; margin-bottom: 0.25rem;">
-              The Spatial Reality Lab
-            </h2>
-            <div class="lab-meta">
-              <span>Founded in 2023 by Dr. Harish Kumar</span>
-              <span>•</span>
-              <span>Great Lakes Institute of Management, Gurgaon</span>
-            </div>
-          </div>
-          <div>
-            <a href="mailto:iamharishkumar2011@gmail.com?subject=Spatial%20Reality%20Lab%20Collaboration" class="btn btn-primary btn-sm">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
-              Collaborate With The Lab
-            </a>
-          </div>
-        </div>
-
-        <p class="lab-description">
-          The Spatial Reality Lab is an advanced behavioral testbed exploring the frontiers where Extended Reality (XR), Spatial Computing, and Generative Artificial Intelligence intersect with consumer decision-making. Operating as an experimental nucleus, the lab conducts rigorous empirical trials on headset immersion, mobile AR overlays, cognitive load, and human-AI trust calibration.
-        </p>
-
-        <div class="lab-pillars-grid">
-          <div class="lab-pillar-item">
-            <h4>Experimental Infrastructure</h4>
-            <p>Conducting randomized controlled experiments examining virtual storefronts, 3D product interaction, and psychological presence.</p>
-          </div>
-          <div class="lab-pillar-item">
-            <h4>Pioneering Curriculum</h4>
-            <p>Powering the 'Spatial Computing in Marketing' MBA course, giving students direct hands-on access to spatial prototyping and marketing strategy.</p>
-          </div>
-          <div class="lab-pillar-item">
-            <h4>Discovery Dialogue Series</h4>
-            <p>Convening international scholars, keynote researchers, and industry pioneers for interdisciplinary discussions on spatial technology.</p>
-          </div>
-          <div class="lab-pillar-item">
-            <h4>TARD Methodology Workshops</h4>
-            <p>Training research scholars and teaching assistants in laddering methods, structural equation modeling, and high-impact publishing.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Publications Explorer -->
-  <section id="publications" class="publications-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Scholarly Impact</span>
-        <h2 class="section-title">Peer-Reviewed Publications</h2>
-        <p class="section-desc">
-          15 ABDC-A* and A journal articles, Harvard Business Publishing teaching cases, and book chapters. Filter by tier or search keywords instantly.
-        </p>
-      </div>
-
-      <!-- Controls: Filters + Search -->
-      <div class="pub-controls">
-        <div class="pub-filter-tabs">
-          <button class="filter-tab active" data-filter="all">
-            All Papers <span class="badge-count">20</span>
-          </button>
-          <button class="filter-tab" data-filter="abdc-astar">
-            ABDC A* <span class="badge-count">1</span>
-          </button>
-          <button class="filter-tab" data-filter="abdc-a">
-            ABDC A <span class="badge-count">14</span>
-          </button>
-          <button class="filter-tab" data-filter="teaching-case">
-            Harvard / Ivey Cases <span class="badge-count">2</span>
-          </button>
-          <button class="filter-tab" data-filter="other">
-            Chapters &amp; ABDC B/C <span class="badge-count">3</span>
-          </button>
-        </div>
-
-        <div class="pub-search-bar">
-          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <input type="text" id="pub-search-input" placeholder="Search by topic, co-author, journal, or keyword..." />
-          <button class="clear-search-btn" id="clear-search-btn" title="Clear search">✕</button>
+        <div class="archive-search-box">
+          <input type="text" id="archive-search" placeholder="Search archive by topic, method, or title..." />
         </div>
       </div>
 
-      <div class="pub-results-count" id="pub-results-count">Showing 20 of 20 publications</div>
-
-      <!-- Dynamic Publications Container -->
-      <div class="publications-list" id="publications-list">
-
-    <article class="pub-card highlight-astar" id="pub-1">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-astar">ABDC - A*</span>
-          <span class="pub-year">2024</span>
-        </div>
+      <div class="archive-results-status" id="archive-status">
+        Showing all 20 publications in archive
       </div>
-      <h3 class="pub-title">Towards a theoretical framework for augmented reality marketing: A means-end chain perspective on retailing</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong>, Rauschnabel, P. A., Agarwal, M. N., Singh, R. K., &amp; Srivastava, R.</p>
-      <p class="pub-venue">Information &amp; Management — Vol. 61, No. 2, 103910</p>
-      <div class="pub-tags"><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Means-End Chain</span><span class="pill-tag">Retailing</span><span class="pill-tag">Theoretical Framework</span></div>
-      <div class="pub-actions">
+
+      <div class="archive-list" id="archive-list">
         
-    <a href="https://doi.org/10.1016/j.im.2023.103910" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
-    </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-1')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-1')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
+    <div class="archive-row" id="pub-1" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2024</span>
+        <span class="archive-badge">ABDC A*</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <div class="bibtex-drawer" id="bibtex-pub-1">
-        <pre>@article{kumar2024towards,
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1016/j.im.2023.103910" target="_blank" rel="noopener noreferrer">Towards a theoretical framework for augmented reality marketing: A means-end chain perspective on retailing</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong>, Rauschnabel, P. A., Agarwal, M. N., Singh, R. K., &amp; Srivastava, R.</div>
+        <div class="archive-venue">Information &amp; Management — 61(2), 103910</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Theoretical framework linking AR retail attributes to core human values across 7 countries.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Means-End Chain Laddering (7-Country Sample)</div>
+        
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1016/j.im.2023.103910" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
+    </a>
+          <button class="tool-link" onclick="copyApa('pub-1')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-1')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-1">
+          <pre id="bibtex-code-pub-1">@article{kumar2024towards,
   title={Towards a theoretical framework for augmented reality marketing: A means-end chain perspective on retailing},
   author={Kumar, Harish and Rauschnabel, Philipp A and Agarwal, Madhushree Nanda and Singh, Rajesh K and Srivastava, Ritu},
   journal={Information &amp; Management},
@@ -474,224 +410,194 @@
   number={2},
   pages={103910},
   year={2024},
-  publisher={Elsevier},
   doi={10.1016/j.im.2023.103910}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-1')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-1')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-2">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2026</span>
-        </div>
+    <div class="archive-row" id="pub-2" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2026</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">B2B marketing in metaverse: Toward a theoretical framework</h3>
-      <p class="pub-authors">Arghashi, V., <strong>Kumar, H.</strong>, Mathew, J., Venkatesh, U., &amp; Altinbasak Farina, I.</p>
-      <p class="pub-venue">Journal of Business and Industrial Marketing — Forthcoming / In Press</p>
-      <div class="pub-tags"><span class="pill-tag">Metaverse</span><span class="pill-tag">B2B Marketing</span><span class="pill-tag">Industrial Marketing</span><span class="pill-tag">Virtual Worlds</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1108/JBIM-09-2024-0679" target="_blank" rel="noopener noreferrer">B2B marketing in metaverse: Toward a theoretical framework</a>
+        </h4>
+        <div class="archive-authors">Arghashi, V., <strong>Kumar, H.</strong>, Mathew, J., Venkatesh, U., &amp; Altinbasak Farina, I.</div>
+        <div class="archive-venue">Journal of Business and Industrial Marketing — Forthcoming</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> First comprehensive conceptualization of business-to-business relationship dynamics in immersive virtual environments.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Conceptual &amp; Grounded Theory</div>
         
-    <a href="https://doi.org/10.1108/JBIM-09-2024-0679" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1108/JBIM-09-2024-0679" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-2')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-2')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-2">
-        <pre>@article{arghashi2026b2b,
+          <button class="tool-link" onclick="copyApa('pub-2')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-2')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-2">
+          <pre id="bibtex-code-pub-2">@article{arghashi2026b2b,
   title={B2B marketing in metaverse: Toward a theoretical framework},
   author={Arghashi, Vahid and Kumar, Harish and Mathew, Joseph and Venkatesh, U. and Altinbasak Farina, I.},
   journal={Journal of Business and Industrial Marketing},
   year={2026},
-  publisher={Emerald Publishing},
   doi={10.1108/JBIM-09-2024-0679}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-2')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-2')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-3">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2025</span>
-        </div>
+    <div class="archive-row" id="pub-3" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2025</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Inclusion &amp; Well-Being</span>
       </div>
-      <h3 class="pub-title">Inclusive marketing: A review and research agenda</h3>
-      <p class="pub-authors">Tuli, N., Srivastava, V., &amp; <strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Journal of Business Research — Article 115274</p>
-      <div class="pub-tags"><span class="pill-tag">Inclusive Marketing</span><span class="pill-tag">Consumer Diversity</span><span class="pill-tag">Literature Review</span><span class="pill-tag">Agenda</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1016/j.jbusres.2025.115274" target="_blank" rel="noopener noreferrer">Inclusive marketing: A review and research agenda</a>
+        </h4>
+        <div class="archive-authors">Tuli, N., Srivastava, V., &amp; <strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Journal of Business Research — 115274</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Integrative model structuring inclusive marketing scholarship into institutional, brand, and consumer dimensions.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Systematic Review &amp; Content Synthesis</div>
         
-    <a href="https://doi.org/10.1016/j.jbusres.2025.115274" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1016/j.jbusres.2025.115274" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-3')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-3')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-3">
-        <pre>@article{tuli2025inclusive,
+          <button class="tool-link" onclick="copyApa('pub-3')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-3')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-3">
+          <pre id="bibtex-code-pub-3">@article{tuli2025inclusive,
   title={Inclusive marketing: A review and research agenda},
   author={Tuli, Neha and Srivastava, Vinit and Kumar, Harish},
   journal={Journal of Business Research},
   pages={115274},
   year={2025},
-  publisher={Elsevier},
   doi={10.1016/j.jbusres.2025.115274}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-3')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-3')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-4">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2025</span>
-        </div>
+    <div class="archive-row" id="pub-4" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2025</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Inclusion &amp; Well-Being</span>
       </div>
-      <h3 class="pub-title">Distance between ‘them’ and ‘us’: Identity stigmatization in the age of consumer inclusion</h3>
-      <p class="pub-authors">Tuli, N., <strong>Kumar, H.</strong>, Upadhyay, S., &amp; Ciszek, E.</p>
-      <p class="pub-venue">International Journal of Advertising — Published Online First</p>
-      <div class="pub-tags"><span class="pill-tag">Identity Stigmatization</span><span class="pill-tag">Consumer Inclusion</span><span class="pill-tag">Advertising Strategy</span><span class="pill-tag">Social Psychology</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1080/02650487.2025.2592469" target="_blank" rel="noopener noreferrer">Distance between ‘them’ and ‘us’: Identity stigmatization in the age of consumer inclusion</a>
+        </h4>
+        <div class="archive-authors">Tuli, N., <strong>Kumar, H.</strong>, Upadhyay, S., &amp; Ciszek, E.</div>
+        <div class="archive-venue">International Journal of Advertising — Online First</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Examines how inclusive advertising campaigns can inadvertently trigger identity threat and stigmatization.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Experimental Design &amp; Thematic Analysis</div>
         
-    <a href="https://doi.org/10.1080/02650487.2025.2592469" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1080/02650487.2025.2592469" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-4')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-4')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-4">
-        <pre>@article{tuli2025distance,
+          <button class="tool-link" onclick="copyApa('pub-4')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-4')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-4">
+          <pre id="bibtex-code-pub-4">@article{tuli2025distance,
   title={Distance between ‘them’ and ‘us’: Identity stigmatization in the age of consumer inclusion},
   author={Tuli, Neha and Kumar, Harish and Upadhyay, Shashi and Ciszek, Erica},
   journal={International Journal of Advertising},
   year={2025},
-  publisher={Routledge},
   doi={10.1080/02650487.2025.2592469}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-4')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-4')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-5">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2025</span>
-        </div>
+    <div class="archive-row" id="pub-5" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2025</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">Understanding how augmented reality’s immersive experience and privacy concerns impact consumer responses: A cognitive perspective</h3>
-      <p class="pub-authors">Lavoye, V. &amp; <strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Journal of Retailing and Consumer Services — Article 104425</p>
-      <div class="pub-tags"><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Privacy Concerns</span><span class="pill-tag">Cognitive Perspective</span><span class="pill-tag">Consumer Retailing</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1016/j.jretconser.2025.104425" target="_blank" rel="noopener noreferrer">Understanding how augmented reality’s immersive experience and privacy concerns impact consumer responses: A cognitive perspective</a>
+        </h4>
+        <div class="archive-authors">Lavoye, V. &amp; <strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Journal of Retailing and Consumer Services — 104425</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Reveals how perceived immersion dampens privacy sensitivity while simultaneously amplifying data concerns.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Structural Equation Modeling (PLS-SEM)</div>
         
-    <a href="https://doi.org/10.1016/j.jretconser.2025.104425" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1016/j.jretconser.2025.104425" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-5')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-5')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-5">
-        <pre>@article{lavoye2025understanding,
+          <button class="tool-link" onclick="copyApa('pub-5')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-5')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-5">
+          <pre id="bibtex-code-pub-5">@article{lavoye2025understanding,
   title={Understanding how augmented reality’s immersive experience and privacy concerns impact consumer responses: A cognitive perspective},
   author={Lavoye, Virginie and Kumar, Harish},
   journal={Journal of Retailing and Consumer Services},
   pages={104425},
   year={2025},
-  publisher={Elsevier},
   doi={10.1016/j.jretconser.2025.104425}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-5')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-5')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-6">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2025</span>
-        </div>
+    <div class="archive-row" id="pub-6" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2025</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Consumer Cognition</span>
       </div>
-      <h3 class="pub-title">Filtering the reality: Exploring the bright and dark side of augmented reality-based filters</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong> &amp; Agarwal, M.</p>
-      <p class="pub-venue">Australian Journal of Management — Vol. 50, No. 1, pp. 152–172</p>
-      <div class="pub-tags"><span class="pill-tag">AR Filters</span><span class="pill-tag">Dark Side of Tech</span><span class="pill-tag">Self-Perception</span><span class="pill-tag">Social Media</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1177/03128962231199356" target="_blank" rel="noopener noreferrer">Filtering the reality: Exploring the bright and dark side of augmented reality-based filters</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong> &amp; Agarwal, M.</div>
+        <div class="archive-venue">Australian Journal of Management — 50(1), 152–172</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Documents the dual effects of AR facial filters on self-enhancement versus body dysmorphia and social fatigue.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Multi-Study Empirical Inquiry</div>
         
-    <a href="https://doi.org/10.1177/03128962231199356" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1177/03128962231199356" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-6')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-6')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-6">
-        <pre>@article{kumar2025filtering,
+          <button class="tool-link" onclick="copyApa('pub-6')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-6')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-6">
+          <pre id="bibtex-code-pub-6">@article{kumar2025filtering,
   title={Filtering the reality: Exploring the bright and dark side of augmented reality-based filters},
   author={Kumar, Harish and Agarwal, Madhushree},
   journal={Australian Journal of Management},
@@ -699,228 +605,198 @@
   number={1},
   pages={152--172},
   year={2025},
-  publisher={SAGE Publications},
   doi={10.1177/03128962231199356}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-6')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-6')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-7">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2024</span>
-        </div>
+    <div class="archive-row" id="pub-7" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2024</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">ARvolution: Decoding consumer motivation and value dimensions in augmented reality</h3>
-      <p class="pub-authors">Schultz, C. D. &amp; <strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Journal of Retailing and Consumer Services — Vol. 78, 103701</p>
-      <div class="pub-tags"><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Consumer Motivation</span><span class="pill-tag">Value Dimensions</span><span class="pill-tag">Shopping Experience</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1016/j.jretconser.2023.103701" target="_blank" rel="noopener noreferrer">ARvolution: Decoding consumer motivation and value dimensions in augmented reality</a>
+        </h4>
+        <div class="archive-authors">Schultz, C. D. &amp; <strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Journal of Retailing and Consumer Services — 78, 103701</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Empirical taxonomy of utilitarian, hedonic, and epistemic motivation drivers in mobile AR shopping.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Survey &amp; Confirmatory Factor Analysis</div>
         
-    <a href="https://doi.org/10.1016/j.jretconser.2023.103701" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1016/j.jretconser.2023.103701" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-7')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-7')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-7">
-        <pre>@article{schultz2024arvolution,
+          <button class="tool-link" onclick="copyApa('pub-7')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-7')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-7">
+          <pre id="bibtex-code-pub-7">@article{schultz2024arvolution,
   title={ARvolution: Decoding consumer motivation and value dimensions in augmented reality},
   author={Schultz, Carsten D and Kumar, Harish},
   journal={Journal of Retailing and Consumer Services},
   volume={78},
   pages={103701},
   year={2024},
-  publisher={Elsevier},
   doi={10.1016/j.jretconser.2023.103701}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-7')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-7')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-8">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2024</span>
-        </div>
+    <div class="archive-row" id="pub-8" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2024</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">A holistic framework for consumer usage modes of augmented reality marketing in retailing</h3>
-      <p class="pub-authors">Caboni, F., Basile, V., <strong>Kumar, H.</strong>, &amp; Agarwal, D.</p>
-      <p class="pub-venue">Journal of Retailing and Consumer Services — Vol. 80, 103924</p>
-      <div class="pub-tags"><span class="pill-tag">Augmented Reality Marketing</span><span class="pill-tag">Usage Modes</span><span class="pill-tag">Retail Framework</span><span class="pill-tag">Omnichannel</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1016/j.jretconser.2024.103924" target="_blank" rel="noopener noreferrer">A holistic framework for consumer usage modes of augmented reality marketing in retailing</a>
+        </h4>
+        <div class="archive-authors">Caboni, F., Basile, V., <strong>Kumar, H.</strong>, &amp; Agarwal, D.</div>
+        <div class="archive-venue">Journal of Retailing and Consumer Services — 80, 103924</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Synthesizes consumer usage modes across in-store and remote e-commerce spatial touchpoints.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Conceptual Matrix &amp; Retailer Taxonomy</div>
         
-    <a href="https://doi.org/10.1016/j.jretconser.2024.103924" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1016/j.jretconser.2024.103924" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-8')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-8')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-8">
-        <pre>@article{caboni2024holistic,
+          <button class="tool-link" onclick="copyApa('pub-8')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-8')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-8">
+          <pre id="bibtex-code-pub-8">@article{caboni2024holistic,
   title={A holistic framework for consumer usage modes of augmented reality marketing in retailing},
   author={Caboni, Federica and Basile, Vincenzo and Kumar, Harish and Agarwal, Divya},
   journal={Journal of Retailing and Consumer Services},
   volume={80},
   pages={103924},
   year={2024},
-  publisher={Elsevier},
   doi={10.1016/j.jretconser.2024.103924}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-8')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-8')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-9">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2024</span>
-        </div>
+    <div class="archive-row" id="pub-9" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2024</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Inclusion &amp; Well-Being</span>
       </div>
-      <h3 class="pub-title">From margins to mainstream: Identifying successful LGBTQ+ inclusive marketing campaigns in India</h3>
-      <p class="pub-authors">Upadhyay, S., Tuli, N., &amp; <strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Australasian Marketing Journal — Vol. 32, No. 3</p>
-      <div class="pub-tags"><span class="pill-tag">LGBTQ+ Marketing</span><span class="pill-tag">Consumer Inclusivity</span><span class="pill-tag">Campaign Strategy</span><span class="pill-tag">India Market</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1177/14413582241247328" target="_blank" rel="noopener noreferrer">From margins to mainstream: Identifying successful LGBTQ+ inclusive marketing campaigns in India</a>
+        </h4>
+        <div class="archive-authors">Upadhyay, S., Tuli, N., &amp; <strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Australasian Marketing Journal — 32(3)</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Identifies strategic and narrative determinants of authentic LGBTQ+ brand communication in emerging markets.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Case Comparison &amp; Qualitative Coding</div>
         
-    <a href="https://doi.org/10.1177/14413582241247328" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1177/14413582241247328" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-9')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-9')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-9">
-        <pre>@article{upadhyay2024margins,
+          <button class="tool-link" onclick="copyApa('pub-9')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-9')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-9">
+          <pre id="bibtex-code-pub-9">@article{upadhyay2024margins,
   title={From margins to mainstream: Identifying successful LGBTQ+ inclusive marketing campaigns in India},
   author={Upadhyay, Shashi and Tuli, Neha and Kumar, Harish},
   journal={Australasian Marketing Journal},
   volume={32},
   number={3},
   year={2024},
-  publisher={SAGE Publications},
   doi={10.1177/14413582241247328}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-9')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-9')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-10">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2024</span>
-        </div>
+    <div class="archive-row" id="pub-10" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2024</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">Exploring the role of augmented reality as new brand advocate</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong>, Tuli, N., Kumar, R., Srivastava, R., &amp; Arya, V.</p>
-      <p class="pub-venue">Journal of Consumer Behaviour — Published Online First</p>
-      <div class="pub-tags"><span class="pill-tag">Brand Advocacy</span><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Consumer Attachment</span><span class="pill-tag">Brand Engagement</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1002/cb.2227" target="_blank" rel="noopener noreferrer">Exploring the role of augmented reality as new brand advocate</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong>, Tuli, N., Kumar, R., Srivastava, R., &amp; Arya, V.</div>
+        <div class="archive-venue">Journal of Consumer Behaviour — Online First</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Links immersive interaction directly to consumer advocacy and organic word-of-mouth.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Empirical Survey &amp; Mediation Modeling</div>
         
-    <a href="https://doi.org/10.1002/cb.2227" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1002/cb.2227" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-10')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-10')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-10">
-        <pre>@article{kumar2024exploring,
+          <button class="tool-link" onclick="copyApa('pub-10')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-10')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-10">
+          <pre id="bibtex-code-pub-10">@article{kumar2024exploring,
   title={Exploring the role of augmented reality as new brand advocate},
   author={Kumar, Harish and Tuli, Neha and Kumar, Rohit and Srivastava, Ritu and Arya, Vikas},
   journal={Journal of Consumer Behaviour},
   year={2024},
-  publisher={Wiley},
   doi={10.1002/cb.2227}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-10')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-10')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-11">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2023</span>
-        </div>
+    <div class="archive-row" id="pub-11" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2023</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">Meta-analysis of augmented reality marketing</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong>, Gupta, P., &amp; Chauhan, S.</p>
-      <p class="pub-venue">Marketing Intelligence &amp; Planning — Vol. 41, No. 1, pp. 110–123</p>
-      <div class="pub-tags"><span class="pill-tag">Meta-Analysis</span><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Quantitative Synthesis</span><span class="pill-tag">Marketing Intelligence</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1108/MIP-06-2022-0221" target="_blank" rel="noopener noreferrer">Meta-analysis of augmented reality marketing</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong>, Gupta, P., &amp; Chauhan, S.</div>
+        <div class="archive-venue">Marketing Intelligence &amp; Planning — 41(1), 110–123</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Synthesizes empirical effect sizes across 50+ studies to resolve debates on AR conversion efficacy.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Meta-Analytic Statistical Synthesis</div>
         
-    <a href="https://doi.org/10.1108/MIP-06-2022-0221" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1108/MIP-06-2022-0221" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-11')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-11')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-11">
-        <pre>@article{kumar2023meta,
+          <button class="tool-link" onclick="copyApa('pub-11')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-11')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-11">
+          <pre id="bibtex-code-pub-11">@article{kumar2023meta,
   title={Meta-analysis of augmented reality marketing},
   author={Kumar, Harish and Gupta, Prateek and Chauhan, Sumedha},
   journal={Marketing Intelligence &amp; Planning},
@@ -928,90 +804,78 @@
   number={1},
   pages={110--123},
   year={2023},
-  publisher={Emerald Publishing},
   doi={10.1108/MIP-06-2022-0221}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-11')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-11')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-12">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2023</span>
-        </div>
+    <div class="archive-row" id="pub-12" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2023</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Consumer Cognition</span>
       </div>
-      <h3 class="pub-title">Digital customer engagement: A systematic literature review and research agenda</h3>
-      <p class="pub-authors">Srivastava, R., Gupta, P., <strong>Kumar, H.</strong>, &amp; Tuli, N.</p>
-      <p class="pub-venue">Australian Journal of Management — Published Online First</p>
-      <div class="pub-tags"><span class="pill-tag">Customer Engagement</span><span class="pill-tag">Digital Marketing</span><span class="pill-tag">Systematic Review</span><span class="pill-tag">Research Agenda</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1177/03128962231177096" target="_blank" rel="noopener noreferrer">Digital customer engagement: A systematic literature review and research agenda</a>
+        </h4>
+        <div class="archive-authors">Srivastava, R., Gupta, P., <strong>Kumar, H.</strong>, &amp; Tuli, N.</div>
+        <div class="archive-venue">Australian Journal of Management — Online First</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Provides a multi-dimensional framework delineating cognitive, emotional, and behavioral engagement in digital touchpoints.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Systematic Review &amp; Bibliometrics</div>
         
-    <a href="https://doi.org/10.1177/03128962231177096" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1177/03128962231177096" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-12')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-12')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-12">
-        <pre>@article{srivastava2023digital,
+          <button class="tool-link" onclick="copyApa('pub-12')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-12')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-12">
+          <pre id="bibtex-code-pub-12">@article{srivastava2023digital,
   title={Digital customer engagement: A systematic literature review and research agenda},
   author={Srivastava, Ritu and Gupta, Prateek and Kumar, Harish and Tuli, Neha},
   journal={Australian Journal of Management},
   year={2023},
-  publisher={SAGE Publications},
   doi={10.1177/03128962231177096}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-12')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-12')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-13">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2023</span>
-        </div>
+    <div class="archive-row" id="pub-13" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2023</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Inclusion &amp; Well-Being</span>
       </div>
-      <h3 class="pub-title">Navigating services for consumers with disabilities: A comprehensive review and conceptual framework</h3>
-      <p class="pub-authors">Tuli, N., Srivastava, R., &amp; <strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Journal of Services Marketing — Vol. 37, No. 9, pp. 1132–1150</p>
-      <div class="pub-tags"><span class="pill-tag">Services Marketing</span><span class="pill-tag">Consumers with Disabilities</span><span class="pill-tag">Inclusion</span><span class="pill-tag">Service Design</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1108/JSM-06-2023-0204" target="_blank" rel="noopener noreferrer">Navigating services for consumers with disabilities: A comprehensive review and conceptual framework</a>
+        </h4>
+        <div class="archive-authors">Tuli, N., Srivastava, R., &amp; <strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Journal of Services Marketing — 37(9), 1132–1150</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Proposes an inclusive service ecosystem model addressing informational, structural, and interpersonal access hurdles.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Systematic Conceptual Framework</div>
         
-    <a href="https://doi.org/10.1108/JSM-06-2023-0204" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1108/JSM-06-2023-0204" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-13')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-13')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-13">
-        <pre>@article{tuli2023navigating,
+          <button class="tool-link" onclick="copyApa('pub-13')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-13')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-13">
+          <pre id="bibtex-code-pub-13">@article{tuli2023navigating,
   title={Navigating services for consumers with disabilities: A comprehensive review and conceptual framework},
   author={Tuli, Neha and Srivastava, Ritu and Kumar, Harish},
   journal={Journal of Services Marketing},
@@ -1019,46 +883,40 @@
   number={9},
   pages={1132--1150},
   year={2023},
-  publisher={Emerald Publishing},
   doi={10.1108/JSM-06-2023-0204}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-13')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-13')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-14">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2022</span>
-        </div>
+    <div class="archive-row" id="pub-14" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2022</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Consumer Cognition</span>
       </div>
-      <h3 class="pub-title">Exploring the role of augmented reality in online impulse behaviour</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong> &amp; Srivastava, R.</p>
-      <p class="pub-venue">International Journal of Retail and Distribution Management — Vol. 50, No. 10, pp. 1281–1301</p>
-      <div class="pub-tags"><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Impulse Buying</span><span class="pill-tag">Online Retailing</span><span class="pill-tag">Consumer Emotion</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1108/IJRDM-11-2021-0535" target="_blank" rel="noopener noreferrer">Exploring the role of augmented reality in online impulse behaviour</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong> &amp; Srivastava, R.</div>
+        <div class="archive-venue">International Journal of Retail and Distribution Management — 50(10), 1281–1301</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Empirical proof of AR&#039;s capacity to induce impulsive purchase decisions via affective state modulation.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Experimental Design (2x2 Factorial)</div>
         
-    <a href="https://doi.org/10.1108/IJRDM-11-2021-0535" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1108/IJRDM-11-2021-0535" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-14')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-14')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-14">
-        <pre>@article{kumar2022exploring,
+          <button class="tool-link" onclick="copyApa('pub-14')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-14')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-14">
+          <pre id="bibtex-code-pub-14">@article{kumar2022exploring,
   title={Exploring the role of augmented reality in online impulse behaviour},
   author={Kumar, Harish and Srivastava, Ritu},
   journal={International Journal of Retail and Distribution Management},
@@ -1066,46 +924,40 @@
   number={10},
   pages={1281--1301},
   year={2022},
-  publisher={Emerald Publishing},
   doi={10.1108/IJRDM-11-2021-0535}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-14')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-14')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-15">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge abdc-a">ABDC - A</span>
-          <span class="pub-year">2021</span>
-        </div>
+    <div class="archive-row" id="pub-15" data-category="peer-reviewed">
+      <div class="archive-meta">
+        <span class="archive-year">2021</span>
+        <span class="archive-badge">ABDC A</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Spatial Computing</span>
       </div>
-      <h3 class="pub-title">Augmented reality in online retailing: A systematic review and research agenda</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong></p>
-      <p class="pub-venue">International Journal of Retail and Distribution Management — Vol. 50, No. 4, pp. 537–559</p>
-      <div class="pub-tags"><span class="pill-tag">Augmented Reality</span><span class="pill-tag">Online Retailing</span><span class="pill-tag">Systematic Review</span><span class="pill-tag">Foundational</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.1108/IJRDM-06-2021-0287" target="_blank" rel="noopener noreferrer">Augmented reality in online retailing: A systematic review and research agenda</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong></div>
+        <div class="archive-venue">International Journal of Retail and Distribution Management — 50(4), 537–559</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> First comprehensive literature mapping that categorized the early decade of AR commerce literature.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Systematic Literature Review</div>
         
-    <a href="https://doi.org/10.1108/IJRDM-06-2021-0287" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.1108/IJRDM-06-2021-0287" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-15')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-15')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-15">
-        <pre>@article{kumar2021augmented,
+          <button class="tool-link" onclick="copyApa('pub-15')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-15')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-15">
+          <pre id="bibtex-code-pub-15">@article{kumar2021augmented,
   title={Augmented reality in online retailing: A systematic review and research agenda},
   author={Kumar, Harish},
   journal={International Journal of Retail and Distribution Management},
@@ -1113,132 +965,116 @@
   number={4},
   pages={537--559},
   year={2021},
-  publisher={Emerald Publishing},
   doi={10.1108/IJRDM-06-2021-0287}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-15')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-15')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card highlight-case" id="pub-16">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge case">Harvard / Ivey Case</span>
-          <span class="pub-year">2021</span>
-        </div>
+    <div class="archive-row" id="pub-16" data-category="cases">
+      <div class="archive-meta">
+        <span class="archive-year">2021</span>
+        <span class="archive-badge">Harvard / Ivey</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Marketing Strategy</span>
       </div>
-      <h3 class="pub-title">Rock Pharmacy: Rocked?</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Ivey Publishing (Listed on Harvard Business School Publishing) — Product ID: W25507-PDF-ENG</p>
-      <div class="pub-tags"><span class="pill-tag">Teaching Case</span><span class="pill-tag">Pharmacy Retail</span><span class="pill-tag">Strategy</span><span class="pill-tag">HBSP</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://hbsp.harvard.edu/product/W25507-PDF-ENG" target="_blank" rel="noopener noreferrer">Rock Pharmacy: Rocked?</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Ivey Publishing (Listed on Harvard Business School Publishing) — Product ID: W25507-PDF-ENG</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Examines competitive disruption and omnichannel pricing battles in traditional pharmaceutical distribution.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Field-Researched Case Study</div>
         
-    <a href="https://hbsp.harvard.edu/product/W25507-PDF-ENG" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      Harvard / Ivey Link
+        <div class="archive-tools">
+          
+    <a href="https://hbsp.harvard.edu/product/W25507-PDF-ENG" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Harvard / Ivey Record ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-16')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-16')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-16">
-        <pre>@misc{kumar2021rock,
+          <button class="tool-link" onclick="copyApa('pub-16')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-16')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-16">
+          <pre id="bibtex-code-pub-16">@misc{kumar2021rock,
   title={Rock Pharmacy: Rocked?},
   author={Kumar, Harish},
   year={2021},
   publisher={Ivey Publishing / Harvard Business Publishing},
   howpublished={\url{https://hbsp.harvard.edu/product/W25507-PDF-ENG}}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-16')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-16')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card highlight-case" id="pub-17">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge case">Harvard / Ivey Case</span>
-          <span class="pub-year">2023</span>
-        </div>
+    <div class="archive-row" id="pub-17" data-category="cases">
+      <div class="archive-meta">
+        <span class="archive-year">2023</span>
+        <span class="archive-badge">Harvard / Ivey</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Marketing Strategy</span>
       </div>
-      <h3 class="pub-title">The Market Maze: Cracking Fresherrry’s Selection Dilemma</h3>
-      <p class="pub-authors">Tuli, N. &amp; <strong>Kumar, H.</strong></p>
-      <p class="pub-venue">Ivey Publishing (Listed on Harvard Business School Publishing / The Case Centre) — Product ID: 194904</p>
-      <div class="pub-tags"><span class="pill-tag">Teaching Case</span><span class="pill-tag">Retail Marketing</span><span class="pill-tag">Market Selection</span><span class="pill-tag">HBSP</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://www.thecasecentre.org/products/view?id=194904" target="_blank" rel="noopener noreferrer">The Market Maze: Cracking Fresherrry’s Selection Dilemma</a>
+        </h4>
+        <div class="archive-authors">Tuli, N. &amp; <strong>Kumar, H.</strong></div>
+        <div class="archive-venue">Ivey Publishing (Listed on Harvard Business School Publishing / The Case Centre) — Product ID: 194904</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Navigates target market selection and unit economics trade-offs for an agritech supply chain disruptor.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Field-Researched Case Study</div>
         
-    <a href="https://www.thecasecentre.org/products/view?id=194904" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      Harvard / Ivey Link
+        <div class="archive-tools">
+          
+    <a href="https://www.thecasecentre.org/products/view?id=194904" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Harvard / Ivey Record ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-17')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-17')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-17">
-        <pre>@misc{tuli2023market,
+          <button class="tool-link" onclick="copyApa('pub-17')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-17')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-17">
+          <pre id="bibtex-code-pub-17">@misc{tuli2023market,
   title={The Market Maze: Cracking Fresherrry&#039;s Selection Dilemma},
   author={Tuli, Neha and Kumar, Harish},
   year={2023},
   publisher={Ivey Publishing / Harvard Business Publishing},
   howpublished={\url{https://www.thecasecentre.org/products/view?id=194904}}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-17')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-17')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-18">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge other">ABDC - C</span>
-          <span class="pub-year">2021</span>
-        </div>
+    <div class="archive-row" id="pub-18" data-category="other">
+      <div class="archive-meta">
+        <span class="archive-year">2021</span>
+        <span class="archive-badge">ABDC C</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Consumer Cognition</span>
       </div>
-      <h3 class="pub-title">Decoding the branded app engagement process: A grounded theory approach</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong> &amp; Tuli, N.</p>
-      <p class="pub-venue">Asia Pacific Journal of Information Systems — Vol. 31, pp. 582–605</p>
-      <div class="pub-tags"><span class="pill-tag">Branded Apps</span><span class="pill-tag">Grounded Theory</span><span class="pill-tag">Mobile Engagement</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.14329/apjis.2021.31.4.582" target="_blank" rel="noopener noreferrer">Decoding the branded app engagement process: A grounded theory approach</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong> &amp; Tuli, N.</div>
+        <div class="archive-venue">Asia Pacific Journal of Information Systems — 31, 582–605</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Constructs an emergent process model of recurring consumer touchpoints inside brand mobile ecosystems.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Grounded Theory Qualitative Coding</div>
         
-    <a href="https://doi.org/10.14329/apjis.2021.31.4.582" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.14329/apjis.2021.31.4.582" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-18')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-18')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-18">
-        <pre>@article{kumar2021decoding,
+          <button class="tool-link" onclick="copyApa('pub-18')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-18')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-18">
+          <pre id="bibtex-code-pub-18">@article{kumar2021decoding,
   title={Decoding the branded app engagement process: A grounded theory approach},
   author={Kumar, Harish and Tuli, Neha},
   journal={Asia Pacific Journal of Information Systems},
@@ -1247,85 +1083,75 @@
   year={2021},
   doi={10.14329/apjis.2021.31.4.582}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-18')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-18')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-19">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge other">ABDC - B</span>
-          <span class="pub-year">2022</span>
-        </div>
+    <div class="archive-row" id="pub-19" data-category="other">
+      <div class="archive-meta">
+        <span class="archive-year">2022</span>
+        <span class="archive-badge">ABDC B</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Inclusion &amp; Well-Being</span>
       </div>
-      <h3 class="pub-title">Demystifying the engagement process: A BoP perspective towards social media engagement</h3>
-      <p class="pub-authors">Tuli, N., <strong>Kumar, H.</strong>, &amp; Srivastava, R.</p>
-      <p class="pub-venue">Journal of International Consumer Marketing — Published 2022</p>
-      <div class="pub-tags"><span class="pill-tag">Bottom of Pyramid</span><span class="pill-tag">Social Media Engagement</span><span class="pill-tag">Emerging Markets</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer">Demystifying the engagement process: A BoP perspective towards social media engagement</a>
+        </h4>
+        <div class="archive-authors">Tuli, N., <strong>Kumar, H.</strong>, &amp; Srivastava, R.</div>
+        <div class="archive-venue">Journal of International Consumer Marketing — Published 2022</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Expands engagement theory into Bottom-of-the-Pyramid consumers navigating digital smartphone adoption.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> Qualitative Field Interviews</div>
         
-    <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-19')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-19')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-19">
-        <pre>@article{tuli2022demystifying,
+          <button class="tool-link" onclick="copyApa('pub-19')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-19')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-19">
+          <pre id="bibtex-code-pub-19">@article{tuli2022demystifying,
   title={Demystifying the engagement process: A BoP perspective towards social media engagement},
   author={Tuli, Neha and Kumar, Harish and Srivastava, Ritu},
   journal={Journal of International Consumer Marketing},
   year={2022}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-19')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-19')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
 
-    <article class="pub-card" id="pub-20">
-      <div class="pub-card-top">
-        <div class="pub-badges">
-          <span class="tier-badge other">Book Chapter</span>
-          <span class="pub-year">2020</span>
-        </div>
+    <div class="archive-row" id="pub-20" data-category="other">
+      <div class="archive-meta">
+        <span class="archive-year">2020</span>
+        <span class="archive-badge">Book Chapter</span>
+        <span class="mono-meta" style="font-size:0.65rem; color:var(--text-dim); margin-top:0.25rem;">Consumer Cognition</span>
       </div>
-      <h3 class="pub-title">A qualitative insight into the personal factors impacting online impulse behavior</h3>
-      <p class="pub-authors"><strong>Kumar, H.</strong>, Garg, R., Kumar, P., &amp; Chhikara, R.</p>
-      <p class="pub-venue">Strategies and Tools for Managing Connected Consumers (IGI Global) — pp. 279–291</p>
-      <div class="pub-tags"><span class="pill-tag">Book Chapter</span><span class="pill-tag">Impulse Behavior</span><span class="pill-tag">E-Commerce</span><span class="pill-tag">Qualitative</span></div>
-      <div class="pub-actions">
+      <div class="archive-content">
+        <h4 class="archive-title">
+          <a href="https://doi.org/10.4018/978-1-5225-9697-4.ch016" target="_blank" rel="noopener noreferrer">A qualitative insight into the personal factors impacting online impulse behavior</a>
+        </h4>
+        <div class="archive-authors"><strong>Kumar, H.</strong>, Garg, R., Kumar, P., &amp; Chhikara, R.</div>
+        <div class="archive-venue">Strategies and Tools for Managing Connected Consumers (IGI Global) — pp. 279–291</div>
+        <p class="archive-contribution"><em>Intellectual contribution:</em> Isolates psychographic triggers driving unplanned digital purchases among connected young consumers.</p>
+        <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.2rem;"><em>Methodology:</em> In-Depth Qualitative Laddering</div>
         
-    <a href="https://doi.org/10.4018/978-1-5225-9697-4.ch016" target="_blank" rel="noopener noreferrer" class="btn-action">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-      DOI / Article
+        <div class="archive-tools">
+          
+    <a href="https://doi.org/10.4018/978-1-5225-9697-4.ch016" target="_blank" rel="noopener noreferrer" class="tool-link">
+      Publisher DOI ↗
     </a>
-        <button class="btn-action" onclick="copyApaCitation('pub-20')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-          Copy APA
-        </button>
-        <button class="btn-action" onclick="toggleBibtex('pub-20')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-          BibTeX
-        </button>
-      </div>
-      <div class="bibtex-drawer" id="bibtex-pub-20">
-        <pre>@incollection{kumar2020qualitative,
+          <button class="tool-link" onclick="copyApa('pub-20')">Copy APA</button>
+          <button class="tool-link" onclick="toggleBibtex('pub-20')">BibTeX</button>
+        </div>
+
+        <div class="bibtex-snippet" id="bibtex-pub-20">
+          <pre id="bibtex-code-pub-20">@incollection{kumar2020qualitative,
   title={A qualitative insight into the personal factors impacting online impulse behavior},
   author={Kumar, Harish and Garg, R. and Kumar, P. and Chhikara, R.},
   booktitle={Strategies and Tools for Managing Connected Consumers},
@@ -1334,490 +1160,145 @@
   publisher={IGI Global},
   doi={10.4018/978-1-5225-9697-4.ch016}
 }</pre>
-        <div style="margin-top: 0.75rem;">
-          <button class="btn-action" onclick="copyBibtex('pub-20')" style="background: var(--bg-card);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            Copy BibTeX Code
-          </button>
+          <button class="tool-link" onclick="copyBibtex('pub-20')" style="margin-top:0.6rem;">Copy Code</button>
         </div>
       </div>
-    </article>
+    </div>
+  
       </div>
     </div>
   </section>
 
-  <!-- Research Pipeline & FT-50 Targets -->
-  <section id="pipeline" class="pipeline-section">
+  <!-- Active Research Pipeline (Targeting FT-50) -->
+  <section class="section" id="pipeline">
     <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Active Pipeline</span>
-        <h2 class="section-title">FT-50 Targets &amp; Papers Under Review</h2>
-        <p class="section-desc">
-          Ongoing empirical investigations targeting the world's most prestigious management and marketing journals (Financial Times Top 50 &amp; UT Dallas).
+      <div class="section-intro">
+        <span class="section-label">Scholarly Pipeline</span>
+        <h2 class="section-heading">Work in Progress &amp; Under Review</h2>
+        <p class="section-subtext">
+          Active empirical investigations targeting Financial Times Top 50 (FT-50) and UT Dallas premier academic journals.
         </p>
       </div>
 
-      <div class="pipeline-grid">
-        <!-- FT-50 Target Projects -->
-        <div class="pipeline-col">
-          <div class="pipeline-col-header">
-            <h3>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: #f59e0b;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-              FT-50 Target Pipeline
-            </h3>
-            <span class="count-badge">4 Projects</span>
-          </div>
-          <div id="pipeline-ft50-list" style="display: flex; flex-direction: column; gap: 1rem;">
-
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag ft50">FT-50 / UT Dallas Top Tier</span>
-    <h4>Cognitive Transition Model: Towards a Unified Theory</h4>
-    <div class="target-journal">Target: Journal of Consumer Research (JCR)</div>
-    <div class="collaborators"><strong>Co-authors:</strong> Philipp Rauschnabel (UniBw Munich, Germany), Mansur Khamitov (Indiana University, USA), Robert Mai (Grenoble University, France)</div>
-    <div class="focus-note">Groundbreaking theoretical foundation linking mental imagery, cognitive immersion, and spatial perception.</div>
+      <div class="pipeline-editorial-grid">
+        <div class="pipeline-group">
+          <h3 class="pipeline-group-header">FT-50 Journal Targets</h3>
+          
+  <div class="pipeline-item">
+    <span class="pipeline-tag">FT-50 Target</span>
+    <h4 class="pipeline-title">Cognitive Transition Model: Towards a Unified Theory</h4>
+    <div class="pipeline-target">Target: Journal of Consumer Research (JCR)</div>
+    <div class="pipeline-coauthors">Collaborators: Philipp Rauschnabel (UniBw Munich, Germany), Mansur Khamitov (Indiana University, USA), Robert Mai (Grenoble Ecole de Management, France)</div>
+    <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:0.35rem;">Constructs a unified cognitive model mapping mental imagery and perceptual boundaries in spatial environments.</div>
   </div>
 
 
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag ft50">FT-50 Top Tier</span>
-    <h4>Augmented Reality as a Benefit Equalizer – A Theoretical Framework on Consumer Inclusion and Well-Being</h4>
-    <div class="target-journal">Target: Journal of the Academy of Marketing Science (JAMS)</div>
-    <div class="collaborators"><strong>Co-authors:</strong> Mansur Khamitov (Indiana University, USA), Philipp Rauschnabel (UniBw Munich, Germany)</div>
-    <div class="focus-note">Positioning AR technologies as transformative equalizers for consumer dignity, accessibility, and well-being.</div>
+  <div class="pipeline-item">
+    <span class="pipeline-tag">FT-50 Target</span>
+    <h4 class="pipeline-title">Augmented Reality as a Benefit Equalizer: A Theoretical Framework on Consumer Inclusion and Well-Being</h4>
+    <div class="pipeline-target">Target: Journal of the Academy of Marketing Science (JAMS)</div>
+    <div class="pipeline-coauthors">Collaborators: Mansur Khamitov (Indiana University, USA), Philipp Rauschnabel (UniBw Munich, Germany)</div>
+    <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:0.35rem;">Theorizes assistive immersive technologies as restorative instruments for consumer dignity.</div>
   </div>
 
 
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag ft50">FT-50 Top Tier</span>
-    <h4>When a Better Gen AI Quality Backfires</h4>
-    <div class="target-journal">Target: Journal of Consumer Psychology (JCP)</div>
-    <div class="collaborators"><strong>Co-authors:</strong> Robert Mai (Grenoble University, France), Mansur Khamitov (Indiana University, USA)</div>
-    <div class="focus-note">Experimental evidence revealing the psychological paradox where high fidelity AI outputs trigger consumer alienation.</div>
+  <div class="pipeline-item">
+    <span class="pipeline-tag">FT-50 Target</span>
+    <h4 class="pipeline-title">When a Better Gen AI Quality Backfires</h4>
+    <div class="pipeline-target">Target: Journal of Consumer Psychology (JCP)</div>
+    <div class="pipeline-coauthors">Collaborators: Robert Mai (Grenoble Ecole de Management, France), Mansur Khamitov (Indiana University, USA)</div>
+    <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:0.35rem;">Experimental demonstration of the uncanny psychological penalty when AI outputs appear unnaturally articulate.</div>
   </div>
 
 
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag ft50">FT-50 / Premier Journal</span>
-    <h4>Mind the Gap! A Mixed-Method Investigation of When Meeting Expectations Beats Exceeding Them in Generative AI</h4>
-    <div class="target-journal">Target: Journal of Marketing (JM)</div>
-    <div class="collaborators"><strong>Co-authors:</strong> Mansur Khamitov (Indiana University, USA)</div>
-    <div class="focus-note">Multi-study investigation into expectancy violation theory and consumer trust boundaries in generative AI adoption.</div>
+  <div class="pipeline-item">
+    <span class="pipeline-tag">FT-50 Target</span>
+    <h4 class="pipeline-title">Mind the Gap! A Mixed-Method Investigation of When Meeting Expectations Beats Exceeding Them in Generative AI</h4>
+    <div class="pipeline-target">Target: Journal of Marketing (JM)</div>
+    <div class="pipeline-coauthors">Collaborators: Mansur Khamitov (Indiana University, USA)</div>
+    <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:0.35rem;">Multi-study investigation into expectancy violation theory and consumer trust boundaries in generative AI adoption.</div>
   </div>
 
-          </div>
         </div>
 
-        <!-- Papers Under Review -->
-        <div class="pipeline-col">
-          <div class="pipeline-col-header">
-            <h3>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-secondary);"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              Articles Under Review / Revision
-            </h3>
-            <span class="count-badge">4 Articles</span>
-          </div>
-          <div id="pipeline-review-list" style="display: flex; flex-direction: column; gap: 1rem;">
-
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag">FT-50 Target • Under Review</span>
-    <h4>The AI Calibration gap: Why Companies Misread Their own Users?</h4>
-    <div class="target-journal">Venue: MIT Sloan Management Review</div>
-    <div class="collaborators">with Mansur Khamitov (Kelley School of Business – Indiana University USA)</div>
+        <div class="pipeline-group">
+          <h3 class="pipeline-group-header">Articles Under Review / Revision</h3>
+          
+  <div class="pipeline-item">
+    <span class="pipeline-tag">FT-50 Target • Under Review</span>
+    <h4 class="pipeline-title">The AI Calibration Gap: Why Companies Misread Their Own Users</h4>
+    <div class="pipeline-target">Target: MIT Sloan Management Review</div>
+    <div class="pipeline-coauthors">with Mansur Khamitov (Kelley School of Business – Indiana University USA)</div>
   </div>
 
 
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag">ABDC - A • Revision Round 1 (R1)</span>
-    <h4>Leveraging augmented and virtual reality for climate change engagement and sustainable consumption</h4>
-    <div class="target-journal">Venue: Journal of Business Research</div>
-    <div class="collaborators">Kumar, H. et al.</div>
+  <div class="pipeline-item">
+    <span class="pipeline-tag">ABDC - A • Revision Round 1 (R1)</span>
+    <h4 class="pipeline-title">Leveraging Augmented and Virtual Reality for Climate Change Engagement and Sustainable Consumption</h4>
+    <div class="pipeline-target">Target: Journal of Business Research</div>
+    <div class="pipeline-coauthors">Kumar, H. et al.</div>
   </div>
 
 
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag">ABDC - A • Under Review</span>
-    <h4>Why AR works – A comparison of web vs mobile AR across cultures</h4>
-    <div class="target-journal">Venue: Technological Forecasting and Social Change</div>
-    <div class="collaborators">Kumar, H. et al.</div>
+  <div class="pipeline-item">
+    <span class="pipeline-tag">ABDC - A • Under Review</span>
+    <h4 class="pipeline-title">Why AR Works: A Cross-Cultural Comparison of Web vs. Mobile Augmented Reality</h4>
+    <div class="pipeline-target">Target: Technological Forecasting and Social Change</div>
+    <div class="pipeline-coauthors">Kumar, H. et al.</div>
   </div>
 
 
-  <div class="pipeline-card">
-    <span class="pipeline-target-tag">ABDC - A • Revision Round 1 (R1)</span>
-    <h4>Role of augmented reality in luxury fashion marketing: A cognitive perspective</h4>
-    <div class="target-journal">Venue: International Journal of Retail and Distribution Management</div>
-    <div class="collaborators">Kumar, H. et al.</div>
+  <div class="pipeline-item">
+    <span class="pipeline-tag">ABDC - A • Revision Round 1 (R1)</span>
+    <h4 class="pipeline-title">Role of Augmented Reality in Luxury Fashion Marketing: A Cognitive Perspective</h4>
+    <div class="pipeline-target">Target: International Journal of Retail and Distribution Management</div>
+    <div class="pipeline-coauthors">Kumar, H. et al.</div>
   </div>
 
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Teaching, Courses & Harvard Business Cases -->
-  <section id="teaching">
+  <!-- Teaching -->
+  <section class="section" id="teaching">
     <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Pedagogy &amp; Executive Education</span>
-        <h2 class="section-title">Teaching Excellence &amp; Case Studies</h2>
-        <p class="section-desc">
-          Equipping MBA candidates and doctoral scholars with rigor, experiential immersion, and strategic clarity.
+      <div class="section-intro">
+        <span class="section-label">Pedagogical Philosophy</span>
+        <h2 class="section-heading">Teaching &amp; Case Development</h2>
+        <p class="section-subtext">
+          Rigorous Socratic inquiry, experimental laboratory audits, and Harvard/Ivey business cases.
         </p>
       </div>
 
-      <div class="teaching-grid" id="courses-grid">
-
-  <div class="course-card">
-    <span class="course-badge">Pioneering Curriculum</span>
-    <h3>Spatial Computing in Marketing</h3>
-    <div class="course-level">PGPM (MBA) Flagship Course</div>
-    <p>Designed and launched as a groundbreaking elective covering Augmented, Virtual, and Mixed Reality in brand strategy, immersive merchandising, spatial UX, and consumer sensory psychology.</p>
-    <div class="institution">Great Lakes Institute of Management, Gurgaon</div>
-  </div>
-
-
-  <div class="course-card">
-    <span class="course-badge">Quantitative Rigor</span>
-    <h3>Marketing Research</h3>
-    <div class="course-level">Core PGPM</div>
-    <p>Comprehensive training in research design, measurement scales, causal inference, and multivariate data analysis for high-stakes business decision making.</p>
-    <div class="institution">Great Lakes Institute of Management, Gurgaon</div>
-  </div>
-
-
-  <div class="course-card">
-    <span class="course-badge">Behavioral Science</span>
-    <h3>Consumer Behavior</h3>
-    <div class="course-level">Core PGPM</div>
-    <p>Examining cognitive, socio-cultural, and emotional drivers of decision making, customer journeys, brand loyalty, and digital identity formation.</p>
-    <div class="institution">Great Lakes Institute of Management, Gurgaon</div>
-  </div>
-
-
-  <div class="course-card">
-    <span class="course-badge">Methodology</span>
-    <h3>Business Research Methods</h3>
-    <div class="course-level">PGPM</div>
-    <p>Translating complex organizational dilemmas into structured empirical investigations using qualitative laddering and econometric modeling.</p>
-    <div class="institution">Great Lakes Institute of Management, Gurgaon</div>
-  </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Media Coverage & Op-Eds -->
-  <section id="media" class="pipeline-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Thought Leadership</span>
-        <h2 class="section-title">Media Coverage &amp; Public Commentary</h2>
-        <p class="section-desc">
-          Translating complex academic discoveries on Generative AI, Spatial Commerce, and Consumer Inclusion for national media outlets and industry leaders.
-        </p>
-      </div>
-
-      <div class="media-grid" id="media-grid">
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">DataQuest</span>
-      <span class="media-date">July 2025</span>
-    </div>
-    <h4 class="media-title">"You See Me Now! How Gen AI Is Rewriting the Rules of Inclusion in the Consumer Age"</h4>
-    <div class="media-footer">
-      <span class="media-category">Generative AI</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">Images Business of Food (Print)</span>
-      <span class="media-date">July 2025</span>
-    </div>
-    <h4 class="media-title">"Immersive Commerce in India: The Leapfrog Opportunity for Retail Engagement"</h4>
-    <div class="media-footer">
-      <span class="media-category">Spatial Commerce</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">Indian Retailer</span>
-      <span class="media-date">June 2025</span>
-    </div>
-    <h4 class="media-title">"Immersive Commerce in India: The Leapfrog Opportunity for Retail Engagement"</h4>
-    <div class="media-footer">
-      <span class="media-category">Spatial Commerce</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">Analytics Insight</span>
-      <span class="media-date">June 2025</span>
-    </div>
-    <h4 class="media-title">"How AI Is Revolutionizing Brand–Consumer Interaction in the Age of Personalization"</h4>
-    <div class="media-footer">
-      <span class="media-category">Generative AI</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">ABP Live Education</span>
-      <span class="media-date">June 2025</span>
-    </div>
-    <h4 class="media-title">"Impact of Generative AI on Student Learning: A Boost or Impediment"</h4>
-    <div class="media-footer">
-      <span class="media-category">Pedagogy &amp; AI</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">Voice &amp; Data Magazine (Cybermedia)</span>
-      <span class="media-date">June 2025</span>
-    </div>
-    <h4 class="media-title">"AI Gets Personal: Coding Turns into Brand Connection"</h4>
-    <div class="media-footer">
-      <span class="media-category">Brand Strategy</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">AdGully</span>
-      <span class="media-date">January 2025</span>
-    </div>
-    <h4 class="media-title">"Blurring Reality: How AR Filters Shape Social Media Users&#039; Self-Concepts &amp; Well-Being"</h4>
-    <div class="media-footer">
-      <span class="media-category">XR &amp; Well-Being</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">Campaign India</span>
-      <span class="media-date">January 2025</span>
-    </div>
-    <h4 class="media-title">"Augmented Reality: Merging Imagination with Retail Innovation"</h4>
-    <div class="media-footer">
-      <span class="media-category">Retail Innovation</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">India Retailing</span>
-      <span class="media-date">January 2025</span>
-    </div>
-    <h4 class="media-title">"The Future of Marketing: Empathy, Not Algorithms"</h4>
-    <div class="media-footer">
-      <span class="media-category">Strategic Marketing</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">Media Avataar</span>
-      <span class="media-date">January 2025</span>
-    </div>
-    <h4 class="media-title">"Augmented Reality: The Future of Consumer Marketing"</h4>
-    <div class="media-footer">
-      <span class="media-category">XR &amp; Retailing</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">The Economic Times (Brand Equity)</span>
-      <span class="media-date">November 2024</span>
-    </div>
-    <h4 class="media-title">"XR: The Game-Changer for Sustainable Consumption"</h4>
-    <div class="media-footer">
-      <span class="media-category">Sustainability &amp; XR</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">The Economic Times (Brand Equity)</span>
-      <span class="media-date">November 2024</span>
-    </div>
-    <h4 class="media-title">"Sustainable Tourism Practices"</h4>
-    <div class="media-footer">
-      <span class="media-category">Sustainability</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-
-  <article class="media-card">
-    <div class="media-card-header">
-      <span class="media-outlet">ET Travel World</span>
-      <span class="media-date">October 2024</span>
-    </div>
-    <h4 class="media-title">"Shaping the Future of Travel: Why Sustainable Tourism Matters"</h4>
-    <div class="media-footer">
-      <span class="media-category">Tourism</span>
-      <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn-action" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">
-        Read Feature →
-      </a>
-    </div>
-  </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Academic Experience & Ph.D. Timeline -->
-  <section id="experience">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Scholarly Trajectory</span>
-        <h2 class="section-title">Academic Appointments &amp; Education</h2>
-        <p class="section-desc">
-          Doctoral training at Management Development Institute (MDI) Gurgaon and leadership at Great Lakes Institute of Management.
-        </p>
-      </div>
-
-      <div class="timeline" id="experience-timeline">
-
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">March 2023 – Present</div>
-      <h4 class="timeline-role">Chairperson Research &amp; Assistant Professor (Marketing)</h4>
-      <div class="timeline-institution">Great Lakes Institute of Management, Gurgaon</div>
-      <ul class="timeline-list">
-        <li>Introduced pioneering course on &#039;Spatial Computing in Marketing&#039; to PGPM students with stellar evaluations.</li><li>Founded the Spatial Reality Lab – an experimental hub for XR consumer research and technology-driven industry partnerships.</li><li>Launched the &#039;Discovery Dialogue Series&#039;, bringing global marketing scholars for interdisciplinary research symposia.</li><li>Founded the &#039;TARD Workshop Series&#039; to train teaching assistants in advanced research methodologies and scholarly publishing.</li><li>Steering the institution&#039;s overall research strategy, doctoral initiatives, and faculty scholarly output.</li>
-      </ul>
+      <div class="courses-editorial-grid">
+        
+  <div class="course-item">
+    <span class="course-level-tag">Elective • PGPM (MBA)</span>
+    <h3 class="course-name">Spatial Computing in Marketing</h3>
+    <p class="course-premise">Explores the shift from 2D flat-screen branding to three-dimensional physical-digital convergence. Students examine sensory presence, virtual storefront design, mixed reality retail analytics, and ethical considerations surrounding biometric spatial data.</p>
+    <div class="course-pedagogy">
+      <strong>Pedagogy:</strong> Combination of theoretical foundation papers, laboratory prototypes, and real-world spatial audits of emerging AR/VR retail applications.
     </div>
   </div>
 
 
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">July 2020 – September 2020</div>
-      <h4 class="timeline-role">Teaching Assistant</h4>
-      <div class="timeline-institution">Management Development Institute (MDI) Gurgaon</div>
-      <ul class="timeline-list">
-        <li>Delivered and assisted in 30-hour course under Prof. Rohit Prasad for PGPM students, earning &#039;Excellent&#039; remarks.</li>
-      </ul>
+  <div class="course-item">
+    <span class="course-level-tag">Core • PGPM (MBA)</span>
+    <h3 class="course-name">Consumer Behavior</h3>
+    <p class="course-premise">An inquiry into the psychological, cognitive, and socio-cultural forces shaping judgment and decision-making. Topics range from bounded rationality, heuristics, and affective priming to identity construction in digital communities.</p>
+    <div class="course-pedagogy">
+      <strong>Pedagogy:</strong> Behavioral experiments, Socratic case discussions (including Harvard/Ivey cases), and live fieldwork analyzing consumer frictions.
     </div>
   </div>
 
 
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">August 2016 – April 2019</div>
-      <h4 class="timeline-role">Assistant Professor</h4>
-      <div class="timeline-institution">Astral Education</div>
-      <ul class="timeline-list">
-        <li>Coached over 500 UGC NET-JRF aspirants in Commerce and Management with record-breaking qualifying outcomes.</li><li>Received institutional recognition for creative classroom lesson plans, interactive pedagogy, and instructional techniques.</li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">July 2019 – 2023</div>
-      <h4 class="timeline-role">Fellow Programme in Management (Ph.D.)</h4>
-      <div class="timeline-institution">Management Development Institute (MDI), Gurgaon</div>
-      <ul class="timeline-list">
-        <li>Marketing (Thesis: Consumer Behavior towards Augmented Reality in Retailing)</li><li>First-author on 4 peer-reviewed articles (1 ABDC-A* and 3 ABDC-A) from dissertation. &#039;A&#039; grade in Comprehensive Research Evaluation (CRE).</li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">2019 – 2020</div>
-      <h4 class="timeline-role">Post Graduate Programme in Management (PGPM Coursework)</h4>
-      <div class="timeline-institution">MDI Gurgaon</div>
-      <ul class="timeline-list">
-        <li>Management Studies</li><li>Completed rigorous 1-year doctoral coursework covering advanced econometric, quantitative, and qualitative research paradigms.</li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">2011 – 2013</div>
-      <h4 class="timeline-role">Master of Business Administration (MBA)</h4>
-      <div class="timeline-institution">Sikkim Manipal University</div>
-      <ul class="timeline-list">
-        <li>Finance</li><li>Advanced corporate finance, managerial economics, and portfolio analytics.</li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="timeline-item">
-    <div class="timeline-dot"></div>
-    <div class="timeline-content">
-      <div class="timeline-period">2009 – 2011</div>
-      <h4 class="timeline-role">Bachelor of Commerce (Honours)</h4>
-      <div class="timeline-institution">M.D. University, Rohtak</div>
-      <ul class="timeline-list">
-        <li>Commerce</li><li>Graduated with Honours; solid quantitative and accounting foundation.</li>
-      </ul>
+  <div class="course-item">
+    <span class="course-level-tag">Core • PGPM (MBA)</span>
+    <h3 class="course-name">Marketing Research &amp; Empirical Design</h3>
+    <p class="course-premise">Focuses on the translation of unstructured strategic problems into rigorous empirical investigations. Emphasizes causal inference, measurement validity, questionnaire architecture, and multivariate statistical modeling.</p>
+    <div class="course-pedagogy">
+      <strong>Pedagogy:</strong> Hands-on data analysis using SPSS, AMOS, and SmartPLS, culminating in original student-led empirical research projects.
     </div>
   </div>
 
@@ -1825,311 +1306,261 @@
     </div>
   </section>
 
-  <!-- Honors, Distinctions & Professional Service -->
-  <section id="honors" class="pipeline-section">
+  <!-- Spatial Reality Lab -->
+  <section class="section" id="lab">
     <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Distinctions</span>
-        <h2 class="section-title">Awards, Editorial Roles &amp; Service</h2>
-        <p class="section-desc">
-          National ranks, best paper prizes in the USA and India, and editorial stewardship.
+      <div class="section-intro">
+        <span class="section-label">Experimental Nucleus</span>
+        <h2 class="section-heading">Spatial Reality Lab</h2>
+        <p class="section-subtext">
+          Founded 2023 by Dr. Harish Kumar • Great Lakes Institute of Management, Gurgaon
         </p>
       </div>
 
-      <div class="pillars-grid" id="honors-grid">
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      Dec 2018
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">All India Rank (AIR) – 3 (99.98 Percentile)</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      UGC-Junior Research Fellowship (JRF) in Management
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">Top 0.02% nationally across thousands of applicants in business and management.</p>
-  </div>
-
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      July 2023
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">Best Paper Award</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      8th XR and Metaverse Conference, Las Vegas, USA
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">International recognition for breakthrough research in spatial computing and virtual environments.</p>
-  </div>
-
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      Jan 2023
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">Best Paper Award</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      Winter Business School Conference, Great Lakes
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">Awarded for exceptional empirical rigor and contribution to marketing literature.</p>
-  </div>
-
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      Sept 2024
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">Best Abstract Award</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      CERO MDI Gurgaon Conference
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">Awarded for &#039;Customer Engagement at the Bottom of the Pyramid&#039;.</p>
-  </div>
-
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      2024
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">Convenor &amp; Conference Leadership</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      3rd Winter Business School Conference, Great Lakes Gurgaon
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">Chaired academic committees, paper tracks, and keynote sessions.</p>
-  </div>
-
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      2024 – Present
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">External Doctoral Thesis Committee Member</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      Indian Institute of Technology (IIT) ISM Dhanbad
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">Serving as external expert member to the thesis committee of Jyoti Rani.</p>
-  </div>
-
-
-  <div class="pillar-card" style="padding: 1.5rem;">
-    <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-secondary); margin-bottom: 0.35rem;">
-      2009
-    </div>
-    <h4 style="font-size: 1.05rem; margin-bottom: 0.4rem; color: var(--text-primary);">Chartered Accountants Foundation (CPT)</h4>
-    <div style="font-size: 0.85rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-      Institute of Chartered Accountants of India (ICAI)
-    </div>
-    <p style="font-size: 0.825rem; margin: 0; color: var(--text-muted);">Passed the national Common Proficiency Test.</p>
-  </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Global Collaborators -->
-  <section id="collaborators">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Global Network</span>
-        <h2 class="section-title">International Academic Collaborators</h2>
-        <p class="section-desc">
-          Collaborative scholarship with distinguished faculty across North America and Europe.
+      <div class="lab-editorial-block">
+        <p class="lab-narrative">
+          The Spatial Reality Lab is an experimental research nucleus dedicated to the empirical investigation of how extended reality (XR), spatial interfaces, and synthetic artificial intelligence reshape consumer psychology and market behavior. The lab bridges academic theoretical discovery with experimental testing of hardware, user experience paradigms, and inclusive service design.
         </p>
-      </div>
 
-      <div class="collab-grid" id="collab-grid">
-
-    <div class="collab-card">
-      <div class="collab-avatar">PA</div>
-      <h4>Prof. Philipp A. Rauschnabel</h4>
-      <div class="collab-title">Professor of Digital Marketing &amp; Media Innovation</div>
-      <div class="collab-inst">Universität der Bundeswehr, Munich, Germany</div>
-      <div class="collab-joint"><strong>Joint Scholarship:</strong> Information &amp; Management (A*), JCR Target, JAMS Target</div>
-      <div>
-        <a href="mailto:Philipp.rauschnabel@unibw.de" class="collab-email">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; vertical-align:middle; margin-right:4px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          Philipp.rauschnabel@unibw.de
-        </a>
-      </div>
-    </div>
-  
-
-    <div class="collab-card">
-      <div class="collab-avatar">MK</div>
-      <h4>Prof. Mansur Khamitov</h4>
-      <div class="collab-title">Associate Professor of Marketing</div>
-      <div class="collab-inst">Kelley School of Business, Indiana University, USA</div>
-      <div class="collab-joint"><strong>Joint Scholarship:</strong> MIT Sloan MR, JCR Target, JM Target, JCP Target, JAMS Target</div>
-      <div>
-        <a href="mailto:mkhamito@iu.edu" class="collab-email">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; vertical-align:middle; margin-right:4px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          mkhamito@iu.edu
-        </a>
-      </div>
-    </div>
-  
-
-    <div class="collab-card">
-      <div class="collab-avatar">RM</div>
-      <h4>Prof. Robert Mai</h4>
-      <div class="collab-title">Professor of Marketing</div>
-      <div class="collab-inst">Grenoble Ecole de Management, France</div>
-      <div class="collab-joint"><strong>Joint Scholarship:</strong> JCR Target, JCP Target</div>
-      <div>
-        <a href="mailto:robert.mai@grenoble-em.com" class="collab-email">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; vertical-align:middle; margin-right:4px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          robert.mai@grenoble-em.com
-        </a>
-      </div>
-    </div>
-  
-
-    <div class="collab-card">
-      <div class="collab-avatar">RS</div>
-      <h4>Prof. Ritu Srivastava</h4>
-      <div class="collab-title">Professor of Marketing</div>
-      <div class="collab-inst">Management Development Institute (MDI), Gurgaon</div>
-      <div class="collab-joint"><strong>Joint Scholarship:</strong> Information &amp; Management (A*), IJRDM, JSM, AJM</div>
-      <div>
-        <a href="mailto:ritu.srivastava@mdi.ac.in" class="collab-email">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; vertical-align:middle; margin-right:4px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          ritu.srivastava@mdi.ac.in
-        </a>
-      </div>
-    </div>
-  
-
-    <div class="collab-card">
-      <div class="collab-avatar">MN</div>
-      <h4>Prof. Madhushree Nanda Agarwal</h4>
-      <div class="collab-title">Professor of OB &amp; HR</div>
-      <div class="collab-inst">Management Development Institute (MDI), Gurgaon</div>
-      <div class="collab-joint"><strong>Joint Scholarship:</strong> Information &amp; Management (A*), Australian Journal of Management</div>
-      <div>
-        <a href="mailto:madhushree@mdi.ac.in" class="collab-email">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; vertical-align:middle; margin-right:4px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          madhushree@mdi.ac.in
-        </a>
-      </div>
-    </div>
-  
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section & Direct Collab Note Form -->
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <div class="contact-card">
-        <div class="contact-grid">
-          <div>
-            <span class="section-eyebrow">Inquiries &amp; Synergies</span>
-            <h2 class="serif-font" style="font-size: 2.1rem; margin-bottom: 0.75rem;">
-              Let’s Connect &amp; Collaborate
-            </h2>
-            <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">
-              I welcome scholarly discussions, prospective doctoral and master’s research inquiries, conference invitations, and corporate advisory dialogues in Spatial Computing (XR) and Generative AI.
-            </p>
-
-            <div class="contact-info-list">
-              <div class="contact-info-item">
-                <div class="contact-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                </div>
-                <div class="contact-details">
-                  <h5>Primary Email</h5>
-                  <p><a href="mailto:iamharishkumar2011@gmail.com">iamharishkumar2011@gmail.com</a></p>
-                </div>
-              </div>
-
-              <div class="contact-info-item">
-                <div class="contact-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                </div>
-                <div class="contact-details">
-                  <h5>Alternate Email</h5>
-                  <p><a href="mailto:narehsdish@gmail.com">narehsdish@gmail.com</a></p>
-                </div>
-              </div>
-
-              <div class="contact-info-item">
-                <div class="contact-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                </div>
-                <div class="contact-details">
-                  <h5>Direct Phone</h5>
-                  <p><a href="tel:+918398034573">+91 8398034573</a></p>
-                </div>
-              </div>
-
-              <div class="contact-info-item">
-                <div class="contact-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                </div>
-                <div class="contact-details">
-                  <h5>Academic Affiliation &amp; Office</h5>
-                  <p>Great Lakes Institute of Management, Gurgaon, Haryana, India</p>
-                </div>
-              </div>
+        <div class="lab-pillars-four">
+          
+            <div class="lab-pillar-entry">
+              <h4>Behavioral Laboratory Trials</h4>
+              <p>Rigorous testing of visual presence, sensory overload, and spatial heuristics using eye-tracking and immersive displays.</p>
             </div>
+          
+
+            <div class="lab-pillar-entry">
+              <h4>Curriculum &amp; Next-Gen Pedagogy</h4>
+              <p>The foundational home for the pioneering &#039;Spatial Computing in Marketing&#039; MBA course.</p>
+            </div>
+          
+
+            <div class="lab-pillar-entry">
+              <h4>Global Scholarly Consortia</h4>
+              <p>Active research alliances with faculty across Germany (UniBw Munich), USA (Indiana University), and France (Grenoble).</p>
+            </div>
+          
+
+            <div class="lab-pillar-entry">
+              <h4>Methodological Training (TARD)</h4>
+              <p>The Teaching Assistant Research Development series, training scholars in advanced econometric and laddering methods.</p>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About: Intellectual Narrative -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-label">Biographical Narrative</span>
+        <h2 class="section-heading">About Dr. Harish Kumar</h2>
+      </div>
+
+      <div class="about-narrative-layout">
+        <aside class="about-nav-sticky">
+          <a href="#who-i-am" class="about-nav-link">Who I Am</a>
+          <a href="#what-i-study" class="about-nav-link">What I Study</a>
+          <a href="#why-i-study-it" class="about-nav-link">Why I Study It</a>
+          <a href="#how-i-think" class="about-nav-link">How I Think</a>
+          <a href="#what-i-explore" class="about-nav-link">What I Am Exploring</a>
+        </aside>
+
+        <div class="about-text-stream">
+          <div class="bio-block" id="who-i-am">
+            <h3>Who I Am</h3>
+            <p>I am an academician, researcher, and educator based at the Great Lakes Institute of Management in Gurgaon, where I serve as Chairperson of Research and Assistant Professor of Marketing. I completed my doctoral studies at the Management Development Institute (MDI) Gurgaon, supported by the UGC Junior Research Fellowship after securing an All India Rank 3 with a 99.98 percentile.</p>
+            <p>I currently lead institutional research strategy as Chairperson of Research at Great Lakes Institute of Management, Gurgaon, while mentoring doctoral candidates and teaching MBA students in marketing and research methods.</p>
           </div>
 
-          <!-- Quick Inquiry Form -->
-          <div>
-            <form class="inquiry-form" id="contact-inquiry-form">
-              <div class="form-group">
-                <label for="sender-name">Your Full Name</label>
-                <input type="text" id="sender-name" placeholder="Prof. / Dr. / Jane Doe" required />
-              </div>
-              <div class="form-group">
-                <label for="sender-email">Your Email Address</label>
-                <input type="email" id="sender-email" placeholder="name@institution.edu" required />
-              </div>
-              <div class="form-group">
-                <label for="sender-subject">Subject</label>
-                <input type="text" id="sender-subject" placeholder="Research Collaboration / Speaking Inquiry" required />
-              </div>
-              <div class="form-group">
-                <label for="sender-message">Message / Research Note</label>
-                <textarea id="sender-message" rows="4" placeholder="Briefly describe your research interest or inquiry..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                Send Inquiry Note
-              </button>
-            </form>
+          <div class="bio-block" id="what-i-study">
+            <h3>What I Study</h3>
+            <p>My research sits at the intersection of consumer psychology, sensory experience, and emerging technology. Specifically, I investigate how augmented reality (AR), virtual reality (VR), spatial computing, and generative artificial intelligence alter the ways in which human beings perceive value, form preferences, navigate privacy concerns, and make decisions.</p>
+          </div>
+
+          <div class="bio-block" id="why-i-study-it">
+            <h3>Why I Study It</h3>
+            <p>Marketing theory was predominantly constructed around flat, static, or two-dimensional communication—print, television, desktop interfaces, and mobile screens. However, spatial computing introduces depth, physical embodiment, and perceived reality, while generative AI introduces synthetic agency. These shifts dissolve longstanding behavioral assumptions, demanding entirely new theoretical models for how people experience brands and technology.</p>
+          </div>
+
+          <div class="bio-block" id="how-i-think">
+            <h3>How I Think</h3>
+            <p>Methodologically, I believe scholarly rigor requires pluralism. My doctoral dissertation and subsequent scholarship blend deep qualitative laddering techniques (Means-End Chain analysis across seven national cultures) with tightly controlled behavioral laboratory experiments, psychometric scale development, structural equation modeling (PLS-SEM & AMOS), and systematic meta-analytic syntheses.</p>
+          </div>
+
+          <div class="bio-block" id="what-i-explore">
+            <h3>What I Am Exploring Now</h3>
+            <p>My current research agenda investigates two core phenomena: first, the 'AI Calibration Gap'—the systematic disconnect between what organizations assume generative AI delivers versus how consumers psychologically evaluate synthetic interactions; second, the potential of immersive reality as a 'benefit equalizer' that dismantles identity stigma and expands accessibility for historically underserved consumer segments.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <p>© 2026 Dr. Harish Kumar. All academic rights reserved.</p>
-        <p style="font-size: 0.775rem; margin-top: 0.25rem;">
-          Chairperson Research | Great Lakes Institute of Management, Gurgaon | Ph.D. from MDI Gurgaon
+  <!-- Media & Commentary -->
+  <section class="section" id="media">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-label">Public Discourse</span>
+        <h2 class="section-heading">Media &amp; Commentary</h2>
+        <p class="section-subtext">
+          Translating research on spatial commerce, generative AI, and inclusive marketing for the public sphere.
         </p>
       </div>
 
+      <div class="media-list-editorial">
+        
+  <div class="media-row">
+    <span class="media-date">July 2025</span>
+    <h4 class="media-title">You See Me Now! How Gen AI Is Rewriting the Rules of Inclusion in the Consumer Age</h4>
+    <span class="media-outlet">DataQuest</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">July 2025</span>
+    <h4 class="media-title">Immersive Commerce in India: The Leapfrog Opportunity for Retail Engagement</h4>
+    <span class="media-outlet">Images Business of Food</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">June 2025</span>
+    <h4 class="media-title">Immersive Commerce in India: The Leapfrog Opportunity for Retail Engagement</h4>
+    <span class="media-outlet">Indian Retailer</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">June 2025</span>
+    <h4 class="media-title">How AI Is Revolutionizing Brand–Consumer Interaction in the Age of Personalization</h4>
+    <span class="media-outlet">Analytics Insight</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">June 2025</span>
+    <h4 class="media-title">Impact of Generative AI on Student Learning: A Boost or Impediment</h4>
+    <span class="media-outlet">ABP Live Education</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">June 2025</span>
+    <h4 class="media-title">AI Gets Personal: Coding Turns into Brand Connection</h4>
+    <span class="media-outlet">Voice &amp; Data Magazine</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">January 2025</span>
+    <h4 class="media-title">Blurring Reality: How AR Filters Shape Social Media Users&#039; Self-Concepts &amp; Well-Being</h4>
+    <span class="media-outlet">AdGully</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">January 2025</span>
+    <h4 class="media-title">Augmented Reality: Merging Imagination with Retail Innovation</h4>
+    <span class="media-outlet">Campaign India</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">January 2025</span>
+    <h4 class="media-title">The Future of Marketing: Empathy, Not Algorithms</h4>
+    <span class="media-outlet">India Retailing</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">January 2025</span>
+    <h4 class="media-title">Augmented Reality: The Future of Consumer Marketing</h4>
+    <span class="media-outlet">Media Avataar</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">November 2024</span>
+    <h4 class="media-title">XR: The Game-Changer for Sustainable Consumption</h4>
+    <span class="media-outlet">The Economic Times (Brand Equity)</span>
+  </div>
+
+
+  <div class="media-row">
+    <span class="media-date">October 2024</span>
+    <h4 class="media-title">Shaping the Future of Travel: Why Sustainable Tourism Matters</h4>
+    <span class="media-outlet">ET Travel World</span>
+  </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Colophon -->
+  <section class="section" id="contact" style="border-bottom:none;">
+    <div class="container">
+      <div class="contact-editorial-layout">
+        <div class="contact-stream">
+          <div class="section-intro" style="margin-bottom:1.5rem;">
+            <span class="section-label">Correspondence</span>
+            <h2 class="section-heading" style="font-size:2.2rem;">Get in Touch</h2>
+          </div>
+
+          <div class="contact-entry">
+            <span class="contact-entry-label">Primary Email</span>
+            <span class="contact-entry-val"><a href="mailto:iamharishkumar2011@gmail.com">iamharishkumar2011@gmail.com</a></span>
+          </div>
+
+          <div class="contact-entry">
+            <span class="contact-entry-label">Direct Telephone</span>
+            <span class="contact-entry-val"><a href="tel:+91 8398034573">+91 8398034573</a></span>
+          </div>
+
+          <div class="contact-entry">
+            <span class="contact-entry-label">Scholarly Profiles</span>
+            <span class="contact-entry-val" style="font-size:1.05rem;">
+              <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a> &nbsp;•&nbsp;
+              <a href="https://www.linkedin.com/in/harish-kumar-719909110" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </span>
+          </div>
+
+          <div class="contact-entry">
+            <span class="contact-entry-label">Office &amp; Lab</span>
+            <p style="font-size:0.95rem; margin-top:0.25rem;">Great Lakes Institute of Management, Bilaspur Tauru Road, Gurgaon, Haryana 122413, India</p>
+          </div>
+        </div>
+
+        <div class="colophon-block">
+          <span class="mono-meta" style="color:var(--accent-editorial); margin-bottom:0.75rem; display:block;">Colophon &amp; International Consortia</span>
+          <p>
+            Academic collaborations span scholars at <strong>Kelley School of Business (Indiana University, USA)</strong>, <strong>Universität der Bundeswehr (Munich, Germany)</strong>, <strong>Grenoble Ecole de Management (France)</strong>, and <strong>MDI Gurgaon</strong>.
+          </p>
+          <p>
+            Typeset in <em>Newsreader</em> (designed by Production Type) and <em>Plus Jakarta Sans</em> (designed by Tokotype). Built on clean semantic standards.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Minimalist Masthead Footer -->
+  <footer class="colophon-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        Dr. Harish Kumar • Chairperson Research, Great Lakes Institute of Management, Gurgaon
+      </div>
       <div class="footer-links">
-        <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-        <a href="https://www.linkedin.com/in/harish-kumar-719909110" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="#hero">Back to Top ↑</a>
+        <a href="https://scholar.google.com/citations?user=RQaX1WwAAAAJ" target="_blank" rel="noopener noreferrer" class="footer-link">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/harish-kumar-719909110" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="#hero" class="footer-link">Top ↑</a>
       </div>
     </div>
   </footer>
 
-  <!-- Floating Back to Top Button -->
-  <button id="back-to-top" class="back-to-top" title="Scroll to top" aria-label="Scroll to top">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
-  </button>
-
-  <!-- Toast Notification Container -->
-  <div id="toast-container" class="toast-container"></div>
-
-  <!-- Scripts -->
   <script src="data/cv-data.js"></script>
   <script src="js/app.js"></script>
 </body>
