@@ -1832,3 +1832,519 @@ a {
     transform: none !important;
   }
 }
+
+/* ==========================================================================
+   Generative Engine Optimized (GEO) Paper Summary Pages
+   ========================================================================== */
+
+.paper-page-body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.paper-article-container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 8.5rem 1.75rem 6rem;
+}
+
+.paper-editorial-sheet {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  padding: 3.5rem 4rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+}
+
+.paper-breadcrumbs {
+  font-family: var(--font-mono);
+  font-size: 0.725rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 2.25rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.paper-breadcrumbs a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-subtle);
+}
+
+.paper-breadcrumbs a:hover {
+  color: var(--accent-editorial);
+}
+
+.crumb-sep {
+  color: var(--border-light);
+}
+
+.crumb-current {
+  color: var(--accent-editorial);
+  font-weight: 500;
+}
+
+.paper-sheet-header {
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 2.25rem;
+  margin-bottom: 2.75rem;
+}
+
+.paper-meta-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.paper-badge-tier {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-editorial);
+  background: var(--accent-tint);
+  border: 1px solid rgba(140, 46, 36, 0.2);
+  padding: 0.25rem 0.65rem;
+  border-radius: 2px;
+}
+
+.paper-badge-year {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  padding: 0.25rem 0.65rem;
+  border-radius: 2px;
+}
+
+.paper-badge-topic {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+.paper-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.paper-byline {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.byline-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin-right: 0.35rem;
+}
+
+.paper-venue-strip {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.venue-name {
+  color: var(--accent-editorial);
+  font-weight: 500;
+}
+
+.venue-doi a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition-subtle);
+}
+
+.venue-doi a:hover {
+  color: var(--accent-editorial);
+}
+
+/* --- Key Finding Box (GEO Quotable Claim) --- */
+.geo-key-finding-box {
+  background: var(--accent-tint);
+  border-left: 4px solid var(--accent-editorial);
+  border-radius: 3px;
+  padding: 2.25rem 2.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.finding-header {
+  margin-bottom: 1rem;
+}
+
+.finding-tag {
+  font-family: var(--font-mono);
+  font-size: 0.725rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--accent-editorial);
+  font-weight: 500;
+}
+
+.finding-quote {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--text-primary);
+  margin: 0 0 1.25rem;
+}
+
+.finding-footer {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+/* --- Empirical Stats Panel --- */
+.panel-section-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.5rem;
+}
+
+.geo-stat-panel {
+  margin-bottom: 3.5rem;
+}
+
+.geo-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1.25rem;
+}
+
+.geo-stat-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: 3px;
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.geo-stat-number {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--accent-editorial);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.geo-stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.725rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.geo-stat-detail {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+/* --- Paper Content & Prose --- */
+.paper-content-section {
+  margin-bottom: 3.5rem;
+}
+
+.paper-prose p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.section-hint {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  margin-bottom: 1.25rem;
+  font-style: italic;
+}
+
+.methodology-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  padding: 1.35rem 1.5rem;
+  border-radius: 3px;
+}
+
+.methodology-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.methodology-text {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+/* --- Authoritative Citations List --- */
+.geo-citations-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.geo-cite-item {
+  padding: 1rem 0;
+  border-bottom: 1px dashed var(--border-light);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.geo-cite-item:last-child {
+  border-bottom: none;
+}
+
+.geo-cite-link {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: color var(--transition-subtle);
+}
+
+.geo-cite-link:hover {
+  color: var(--accent-editorial);
+}
+
+.geo-cite-note {
+  font-family: var(--font-mono);
+  font-size: 0.725rem;
+  color: var(--text-dim);
+}
+
+/* --- Citation Block (APA & BibTeX) --- */
+.citation-block {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: 3px;
+  padding: 1.25rem 1.5rem;
+}
+
+.citation-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.citation-label {
+  font-family: var(--font-mono);
+  font-size: 0.725rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.tool-link-btn {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-editorial);
+  background: transparent;
+  border: 1px solid var(--border-light);
+  border-radius: 2px;
+  padding: 0.3rem 0.65rem;
+  cursor: pointer;
+  transition: all var(--transition-subtle);
+}
+
+.tool-link-btn:hover {
+  background: var(--accent-editorial);
+  color: #ffffff;
+  border-color: var(--accent-editorial);
+}
+
+.citation-apa-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+}
+
+.citation-bibtex-pre {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+
+.action-buttons-strip {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.primary-editorial-btn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--accent-editorial);
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.35rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background var(--transition-subtle);
+}
+
+.primary-editorial-btn:hover {
+  background: var(--accent-editorial-hover);
+  color: #ffffff;
+}
+
+.secondary-editorial-btn {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.75rem 1.35rem;
+  border: 1px solid var(--border-light);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all var(--transition-subtle);
+}
+
+.secondary-editorial-btn:hover {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+}
+
+/* --- Sequential Navigation --- */
+.paper-sequence-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.paper-nav-link {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  line-height: 1.4;
+  transition: color var(--transition-subtle);
+}
+
+.paper-nav-link:hover {
+  color: var(--accent-editorial);
+}
+
+.paper-nav-link.next {
+  text-align: right;
+}
+
+.nav-all-btn {
+  font-family: var(--font-mono);
+  font-size: 0.725rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--border-light);
+  border-radius: 2px;
+  transition: all var(--transition-subtle);
+}
+
+.nav-all-btn:hover {
+  color: var(--accent-editorial);
+  border-color: var(--accent-editorial);
+}
+
+.tool-link.highlight {
+  color: var(--accent-editorial);
+  font-weight: 500;
+  background: var(--accent-tint);
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 1px solid rgba(140, 46, 36, 0.2);
+  transition: all var(--transition-subtle);
+}
+
+.tool-link.highlight:hover {
+  background: var(--accent-editorial);
+  color: #ffffff;
+  border-color: var(--accent-editorial);
+}
+
+@media (max-width: 768px) {
+  .paper-article-container {
+    padding: 6.5rem 1rem 4rem;
+  }
+  .paper-editorial-sheet {
+    padding: 2.25rem 1.5rem;
+  }
+  .geo-stat-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .paper-sequence-nav {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .paper-nav-link.next {
+    text-align: center;
+  }
+}
